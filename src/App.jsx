@@ -1,20 +1,20 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Nav from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import WhyUs from "./components/WhyUs";
-import WhatWeDo from "./components/WhatWeDo";
+import OurServices from "./pages/OurServices";
+import OurTeams from "./pages/OurTeams";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 function App() {
   return (
-    <>
-      <Nav />
-      <Home />
-      <WhatWeDo />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<OurServices />} />
+        <Route path="/teams" element={<OurTeams />} />
+      </Routes>
+    </Router>
   );
 }
 

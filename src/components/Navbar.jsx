@@ -9,7 +9,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="sticky top-0 bg-white border-gray-200 shadow-md :bg-gray-900 :border-gray-700 border-b border-gray-200">
+    <nav className="sticky top-0 bg-white border-gray-200 shadow-md :bg-gray-900 :border-gray-700 border-b z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
