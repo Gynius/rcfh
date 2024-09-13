@@ -4,14 +4,14 @@ export const items = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        fill="#F84F39"
+        fill="#FFFFFF"
         height={height}
         width={width}
         version="1.1"
         id="Layer_1"
         viewBox="0 0 512 512"
         xmlSpace="preserve"
-        stroke="#F84F39"
+        stroke="#FFFFFF"
       >
         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
         <g
@@ -52,14 +52,14 @@ export const items = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        fill="#F84F39"
+        fill="#FFFFFF"
         height={height}
         width={width}
         version="1.1"
         id="Layer_1"
         viewBox="0 0 512 512"
         xmlSpace="preserve"
-        stroke="#F84F39"
+        stroke="#FFFFFF"
       >
         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
         <g
@@ -100,14 +100,14 @@ export const items = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        fill="#F84F39"
+        fill="#FFFFFF"
         height={height}
         width={width}
         version="1.1"
         id="Layer_1"
         viewBox="0 0 512 512"
         xmlSpace="preserve"
-        stroke="#F84F39"
+        stroke="#FFFFFF"
       >
         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
         <g
@@ -148,14 +148,14 @@ export const items = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        fill="#F84F39"
+        fill="#FFFFFF"
         height={height}
         width={width}
         version="1.1"
         id="Layer_1"
         viewBox="0 0 512 512"
         xmlSpace="preserve"
-        stroke="#F84F39"
+        stroke="#FFFFFF"
       >
         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
         <g

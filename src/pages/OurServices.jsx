@@ -5,19 +5,19 @@ function OurServices() {
   return (
     <MainTemplate>
       <div className="mx-auto md:max-w-screen-md lg:max-w-screen-lg lg:my-12 relative">
-        <h1 className="font-roboto text-6xl font-semibold text-white mb-10 z-50 text-center">
+        <h1 className="font-roboto text-6xl font-semibold text-red mb-10 z-50 text-center">
           <div
             className="bg-gradient-to-b from-green to-body_bg absolute"
             style={{
-              top: "-10%",
+              top: "-20%",
               left: "-15%",
               width: "200%",
-              height: "100%",
+              height: "30%",
               zIndex: -10,
             }}
           ></div>
-          <div
-            className="bg-green absolute opacity-80"
+          {/* <div
+            className="bg-green absolute opacity-30"
             style={{
               top: "25%",
               right: "-5%",
@@ -27,7 +27,7 @@ function OurServices() {
             }}
           ></div>
           <div
-            className="bg-green absolute opacity-60"
+            className="bg-green absolute opacity-20"
             style={{
               top: "20%",
               left: "-20%",
@@ -37,7 +37,7 @@ function OurServices() {
             }}
           ></div>
           <div
-            className="bg-green absolute opacity-60"
+            className="bg-green absolute opacity-20"
             style={{
               top: "20%",
               right: "-20%",
@@ -47,7 +47,7 @@ function OurServices() {
             }}
           ></div>
           <div
-            className="bg-green absolute opacity-80"
+            className="bg-green absolute opacity-30"
             style={{
               top: "25%",
               left: "-5%",
@@ -55,10 +55,10 @@ function OurServices() {
               height: "60%",
               zIndex: -10,
             }}
-          ></div>
+          ></div> */}
           Our Services
         </h1>
-        <p className="font-roboto text-gray-900 mb-10 text-base text-center">
+        <p className="font-roboto font-normal text-center">
           RCFH is all about taking a weight off your shoulders. From renowned
           business executives to small business owners, our list of clients
           keeps growing each year. We ensure quality by offering smart, agile

@@ -4,14 +4,14 @@ export const services = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        fill="#F84F39"
+        fill="#2A966F"
         height={height}
         width={width}
         version="1.1"
         id="Layer_1"
         viewBox="0 0 512 512"
         xmlSpace="preserve"
-        stroke="#F84F39"
+        stroke="#2A966F"
       >
         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
         <g
@@ -52,7 +52,7 @@ export const services = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        fill="#F84F39"
+        fill="#2A966F"
         height={height}
         width={width}
         version="1.1"
@@ -100,7 +100,7 @@ export const services = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        fill="#F84F39"
+        fill="#2A966F"
         height={height}
         width={width}
         version="1.1"
@@ -148,7 +148,7 @@ export const services = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        fill="#F84F39"
+        fill="#2A966F"
         height={height}
         width={width}
         version="1.1"

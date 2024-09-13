@@ -7,7 +7,7 @@ function Hero() {
           className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full :bg-gray-800 :text-white hover:bg-gray-200 :hover:bg-gray-700"
           role="alert"
         >
-          <span className="text-xs bg-primary-600 rounded-full text-green-500 px-4 py-1.5 mr-3">
+          <span className="text-xs bg-primary-600 rounded-full text-green-500 px-4 py-1.5 mr-3 text-red">
             Coming soon!
           </span>{" "}
           <span className="text-sm font-medium">Blog post</span>
@@ -49,7 +49,7 @@ function Hero() {
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="#"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-green rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 :focus:ring-primary-900"
+            className="text-red inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-green rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 :focus:ring-primary-900"
           >
             Book a call
             <svg
@@ -67,7 +67,7 @@ function Hero() {
           </a>
           <a
             href="#"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 :text-white :border-gray-700 :hover:bg-gray-700 :focus:ring-gray-800"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 :text-white :border-gray-700 :hover:bg-gray-700 bg-red text-white hover:bg-green :focus:ring-gray-800"
           >
             NOW
           </a>
