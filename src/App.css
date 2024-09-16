@@ -1,0 +1,12 @@
+.page-title.arc-bottom::after {
+    content: '';
+    position: absolute;
+    bottom: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200%;
+    height: 150%; 
+    background-color: inherit;
+    border-radius: 50%;
+    z-index: -1;
+  }

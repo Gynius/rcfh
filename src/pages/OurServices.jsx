@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function OurServices() {
   return (
     <MainTemplate>
-      <div className="page-title bg-green text-white flex items-center justify-center">
+      <div className="page-title bg-green text-white flex items-center justify-center arc-bottom">
         <div class="container position-relative ">
           <h1>Services</h1>
           <p>Our VA Solutions and Services Make Your Life Easier</p>

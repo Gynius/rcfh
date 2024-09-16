@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function OurTeams() {
   return (
     <MainTemplate>
-      <div className="page-title bg-green text-white flex items-center justify-center">
+    <div className="page-title bg-green text-white flex items-center justify-center arc-bottom">
         <div className="container position-relative ">
           <h1>Team</h1>
           <p>
@@ -17,7 +17,7 @@ function OurTeams() {
           <nav className="breadcrumbs">
             <ol>
               <li>
-                <a className="text-white px-3  bg-red rounded-full border border-1 border-white">
+                <a className="text-white px-3 bg-red rounded-full border border-1 border-white">
                   <Link to="/">Home</Link>
                 </a>
               </li>

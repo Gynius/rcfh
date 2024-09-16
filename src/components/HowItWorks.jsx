@@ -60,8 +60,8 @@ function HowItWorks() {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <span>04</span>
-            <h4>Deliver</h4>
+            <span >04</span>
+            <h4 className="text-red">Deliver</h4>
             <p>
               We are Results Driven to provide services and solutions to help
               organizations facilitate change, achieve their vision and optimize

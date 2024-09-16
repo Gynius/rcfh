@@ -124,7 +124,7 @@ body{
   }
   
   .featured-services .service-item.item-cyan:hover .icon {
-    background-color: var(--cyan-color);
+    background-color: #f525094e;
   }
   
   .featured-services .service-item.item-cyan:hover .icon i {
@@ -132,23 +132,23 @@ body{
   }
   
   .featured-services .service-item.item-orange .icon {
-    background-color: color-mix(in srgb, var(--orange-color) 10%, white 95%);
+    background-color: color-mix(in srgb, #f52509 10%, white 95%);
   }
   
   .featured-services .service-item.item-orange .icon i {
-    color: var(--orange-color);
+    color:#f52509;
   }
   
   .featured-services .service-item.item-orange:hover {
-    border-color: var(--orange-color);
+    border: 1px solid #f52509;
   }
   
   .featured-services .service-item.item-orange:hover .icon {
-    background-color: var(--orange-color);
+    background-color: #f525092f;
   }
   
   .featured-services .service-item.item-orange:hover .icon i {
-    color: var(--contrast-color);
+    color: #f52509;
   }
   
   .featured-services .service-item.item-teal .icon {
@@ -221,7 +221,6 @@ body{
   }
   
   .why-us .card h4 {
-    color: color-mix(in srgb, var(--heading-color), transparent 20%);
     font-size: 24px;
     font-weight: 600;
     padding: 0;
