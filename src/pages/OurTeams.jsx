@@ -6,8 +6,10 @@ function OurTeams() {
         <div className="container position-relative ">
           <h1>Team</h1>
           <p>
-            Esse dolorum voluptatum ullam est sint nemo et est ipsa porro
-            placeat quibusdam quia assumenda numquam molestias.
+            Because we value our clients and want them to be satisfied with our
+            services, we’re committed to hiring only the best individuals in the
+            industry. Our recruitment process is intense, and our training
+            programs are rigorous. We’re proud of our team of service experts.
           </p>
           <nav className="breadcrumbs">
             <ol>

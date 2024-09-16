@@ -7,10 +7,7 @@ function OurServices() {
       <div className="page-title bg-green text-white flex items-center justify-center">
         <div class="container position-relative ">
           <h1>Services</h1>
-          <p>
-            Esse dolorum voluptatum ullam est sint nemo et est ipsa porro
-            placeat quibusdam quia assumenda numquam molestias.
-          </p>
+          <p>Our VA Solutions and Services Make Your Life Easier</p>
           <nav class="breadcrumbs">
             <ol>
               <li>
