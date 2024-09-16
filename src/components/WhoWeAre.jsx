@@ -10,11 +10,11 @@ function WhoWeAre() {
       <h2 className="font-robotoCondensed text-2xl mb-10 text-white">
         Your Partner in Growth and Success
       </h2>
-      <div className="w-4/5 flex">
+      <div className="w-4/5 grid gap-4 lg:grid-cols-4 md:grid-cols-2 align-center ">
         {items.map((item, index) => {
           return (
             <div
-              className="p-4 rounded shadow-md w-1/4 mr-4"
+              className="p-4 rounded shadow-md w-full"
               style={{ background: "#f1f1f1" }}
               key={index}
             >

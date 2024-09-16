@@ -4,6 +4,7 @@ import HowItWorks from "../components/HowItWorks";
 function OurServices() {
   return (
     <MainTemplate>
+<<<<<<< Updated upstream
       <div className="mx-auto md:max-w-screen-md lg:max-w-screen-lg lg:my-12 relative">
         <h1 className="font-roboto text-6xl font-semibold text-red mb-10 z-50 text-center">
           <div
@@ -69,6 +70,26 @@ function OurServices() {
           together!
         </p>
         <Services />
+=======
+      <div className="page-title bg-green text-white flex items-center justify-center">
+        <div class="container position-relative ">
+          <h1>Services</h1>
+          <p>
+            Esse dolorum voluptatum ullam est sint nemo et est ipsa porro
+            placeat quibusdam quia assumenda numquam molestias.
+          </p>
+          <nav class="breadcrumbs">
+            <ol>
+              <li>
+                <a href="index.html" className="text-red">
+                  Home
+                </a>
+              </li>
+              <li class="current">Services</li>
+            </ol>
+          </nav>
+        </div>
+>>>>>>> Stashed changes
       </div>
       <HowItWorks />
     </MainTemplate>
