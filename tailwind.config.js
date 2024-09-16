@@ -13,7 +13,7 @@ module.exports = {
         
       },
       backgroundImage: {
-        hero_bg: "url('/src/assets/images/hero-bg.png')", 
+        hero_bg: "url('/images/hero-bg.png')", // Use absolute path
       },
       fontSize: {
         xs_sm: '0.8rem', 
