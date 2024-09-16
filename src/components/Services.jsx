@@ -15,12 +15,15 @@ export default function Services() {
                 <i className="bi bi-activity"></i>
               </div>
               <a href="service-details.html" className="stretched-link">
-                <h3>Nesciunt Mete</h3>
+                <h3>VA Services</h3>
               </a>
               <p>
-                Provident nihil minus qui consequatur non omnis maiores. Eos
-                accusantium minus dolores iure perferendis tempore et
-                consequatur.
+                Streamline your operations and reclaim valuable time with our
+                Virtual Assistant Services. Our dedicated team of virtual
+                assistants is adept at handling administrative tasks, managing
+                schedules, and executing a wide range of operational
+                responsibilities. Focus on what matters most while we handle the
+                rest.
               </p>
             </div>
           </div>
@@ -35,11 +38,15 @@ export default function Services() {
                 <i className="bi bi-broadcast"></i>
               </div>
               <a href="service-details.html" className="stretched-link">
-                <h3>Eosle Commodi</h3>
+                <h3>VA Staffing</h3>
               </a>
               <p>
-                Ut autem aut autem non a. Sint sint sit facilis nam iusto sint.
-                Libero corrupti neque eum hic non ut nesciunt dolorem.
+                Finding the right talent for your team just got easier with our
+                Virtual Assistant Staffing services. We match your business
+                needs with skilled professionals who seamlessly integrate into
+                your operations. Whether you require short-term support or
+                long-term collaboration, our virtual assistant staffing ensures
+                a perfect fit for your organizational requirements.
               </p>
             </div>
           </div>
@@ -54,11 +61,15 @@ export default function Services() {
                 <i className="bi bi-easel"></i>
               </div>
               <a href="service-details.html" className="stretched-link">
-                <h3>Ledo Markt</h3>
+                <h3>Outbound Messaging</h3>
               </a>
               <p>
-                Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus
-                ea aut. Vel qui id voluptas adipisci eos earum corrupti.
+                Elevate your brand's communication strategy with our Outbound
+                Messaging services. From targeted marketing campaigns to
+                personalized customer outreach, we craft compelling messages
+                that resonate with your audience. Enhance your brand presence,
+                foster customer relationships, and drive meaningful engagement
+                with our expert outbound messaging solutions.
               </p>
             </div>
           </div>
@@ -73,11 +84,15 @@ export default function Services() {
                 <i className="bi bi-bounding-box-circles"></i>
               </div>
               <a href="service-details.html" className="stretched-link">
-                <h3>Asperiores Commodit</h3>
+                <h3>Consulting </h3>
               </a>
               <p>
-                Non et temporibus minus omnis sed dolor esse consequatur.
-                Cupiditate sed error ea fuga sit provident adipisci neque.
+                Navigate the complexities of business with confidence through
+                our Consulting services. We bring a wealth of industry knowledge
+                to the table, offering insights that drive informed
+                decision-making. From process optimization to overarching
+                business strategy, we provide personalized guidance to fuel your
+                success.{" "}
               </p>
               <a href="service-details.html" className="stretched-link"></a>
             </div>

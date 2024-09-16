@@ -10,7 +10,7 @@ function WhatWeDo() {
           <h2 className="font-robotoCondensed text-2xl text-green mb-4">
             Your Partner in Growth and Success
           </h2>
-          <p className="text-gray-700">
+          <p className="text-green-700">
             RCFH started as a leading provider of Virtual Assistants (VA)
             services. Founded in 2022, we’ve made it our mission to help
             businesses achieve their goals by offering top-tier administrative,

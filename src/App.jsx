@@ -1,6 +1,5 @@
 import "./App.css";
-import Nav from "./components/Navbar";
-import Footer from "./components/Footer";
+import React from "react";
 import Home from "./pages/Home";
 import OurServices from "./pages/OurServices";
 import OurTeams from "./pages/OurTeams";
