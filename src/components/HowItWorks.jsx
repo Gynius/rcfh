@@ -1,13 +1,20 @@
-import React from "react";
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function HowItWorks() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); 
+  }, []);
   return (
-    <section id="why-us" className="why-us section">
-      <div className="container">
+    <section
+      id="why-us"
+      className="why-us section  flex justify-center align-center"
+    >
+      <div className="container ">
         <h1 className="text-center font-roboto text-4xl font-semibold py-4 mb-10 text-red">
           How it Works
         </h1>
-        <div className="row no-gutters why-us-section">
+        <div className="row no-gutters why-us-section flex justify-center align-center">
           <div
             className="col-lg-4 col-md-6 card"
             data-aos="fade-up"
@@ -25,7 +32,7 @@ function HowItWorks() {
           <div
             className="col-lg-4 col-md-6 card"
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="100"
           >
             <span>02</span>
             <h4>Delegate</h4>

@@ -1,4 +1,7 @@
 import MainTemplate from "../components/MainTemplate";
+import Team from "../components/Team";
+import { Link } from "react-router-dom";
+
 function OurTeams() {
   return (
     <MainTemplate>
@@ -14,13 +17,16 @@ function OurTeams() {
           <nav className="breadcrumbs">
             <ol>
               <li>
-                <a href="index.html">Home</a>
+                <a className="text-white px-3  bg-red rounded-full border border-1 border-white">
+                  <Link to="/">Home</Link>
+                </a>
               </li>
               <li className="current">Team</li>
             </ol>
           </nav>
         </div>
       </div>
+      <Team />
     </MainTemplate>
   );
 }

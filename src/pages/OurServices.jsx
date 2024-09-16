@@ -1,6 +1,8 @@
 import MainTemplate from "../components/MainTemplate";
 import Services from "../components/Services";
 import HowItWorks from "../components/HowItWorks";
+import CTA_services from "../components/CTA_services";
+import { Link } from "react-router-dom";
 function OurServices() {
   return (
     <MainTemplate>
@@ -11,8 +13,8 @@ function OurServices() {
           <nav class="breadcrumbs">
             <ol>
               <li>
-                <a href="index.html" className="text-red">
-                  Home
+                <a className="text-white px-3  bg-red rounded-full border border-1 border-white">
+                  <Link to="/">Home</Link>
                 </a>
               </li>
               <li class="current">Services</li>
@@ -22,6 +24,7 @@ function OurServices() {
       </div>
       <Services />
       <HowItWorks />
+      <CTA_services />
     </MainTemplate>
   );
 }
