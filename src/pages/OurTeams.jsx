@@ -2,10 +2,6 @@ import MainTemplate from "../components/MainTemplate";
 function OurTeams() {
   return (
     <MainTemplate>
-<<<<<<< Updated upstream
-      <div>
-        <h1>Our Teams</h1>
-=======
       <div className="page-title bg-green text-white flex items-center justify-center">
         <div className="container position-relative ">
           <h1>Team</h1>
@@ -22,7 +18,6 @@ function OurTeams() {
             </ol>
           </nav>
         </div>
->>>>>>> Stashed changes
       </div>
     </MainTemplate>
   );

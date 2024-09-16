@@ -1,35 +1,13 @@
-import { items } from "../assets/constants/howitworks";
+import React from "react";
 
 function HowItWorks() {
   return (
-<<<<<<< Updated upstream
-    <div className="bg-green py-10">
-      <h1 className=" text-4xl font-roboto py-10 mb-5 text-center text-white ">
-        How It Works
-      </h1>
-      <div className="flex">
-        {items.map((item, index) => {
-          const isEven = index % 2 === 0;
-          return (
-            <div className="px-10 border-b-2 border-green flex flex-col justify-center items-center">
-              {item.svg("80px", "80px")}
-              <h2 className="ext-2xl font-roboto text-white">{item.title}</h2>
-              <p className="text-sm font-roboto text-center my-5 text-white">
-                {item.description}
-              </p>
-            </div>
-          );
-        })}
-=======
-    <section
-      id="why-us"
-      className="why-us section display flex items-center justify-center py-8"
-    >
+    <section id="why-us" className="why-us section">
       <div className="container">
         <h1 className="text-center font-roboto text-4xl font-semibold py-4 mb-10 text-red">
           How it Works
         </h1>
-        <div className="row no-gutters why-us-section  flex item-center justify-center gap-1">
+        <div className="row no-gutters why-us-section">
           <div
             className="col-lg-4 col-md-6 card"
             data-aos="fade-up"
@@ -84,9 +62,8 @@ function HowItWorks() {
             </p>
           </div>
         </div>
->>>>>>> Stashed changes
       </div>
-    </div>
+    </section>
   );
 }
 
