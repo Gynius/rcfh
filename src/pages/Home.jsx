@@ -2,6 +2,8 @@ import Hero from "../components/Hero";
 import MainTemplate from "../components/MainTemplate";
 import WhatWeDo from "../components/WhatWeDo";
 import WhoWeAre from "../components/WhoWeAre";
+import CTA_services from "../components/CTA_services";
+import CTA_call from "../components/CTABookCall";
 
 function Home() {
   return (
@@ -115,7 +117,9 @@ function Home() {
         </div>
       </div>
       <WhatWeDo />
+
       <WhoWeAre />
+      <CTA_services />
     </MainTemplate>
   );
 }

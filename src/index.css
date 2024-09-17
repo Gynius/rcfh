@@ -52,21 +52,16 @@ body{
   }
   
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
-.featured-services .row {
+/* .featured-services .row {
     display: flex;
     padding:  50px 0;
     margin: 0 5%;
     gap: 0.5rem;
 }
-.featured-services {
-    --cyan-color: #0dcaf0;
-    --orange-color: #fd7e14;
-    --teal-color: #20c997;
-    --red-color: #df1529;
-  }
+
   
   .featured-services .service-item {
     background-color: var(--surface-color);
@@ -130,7 +125,13 @@ body{
   .featured-services .service-item.item-cyan:hover .icon i {
     color: var(--contrast-color);
   }
-  
+  */
+  .featured-services {
+    --cyan-color: #0dcaf0;
+    --orange-color: #fd7e14;
+    --teal-color: #20c997;
+    --red-color: #df1529;
+  }
   .featured-services .service-item.item-orange .icon {
     background-color: color-mix(in srgb, #f52509 10%, white 95%);
   }
@@ -146,11 +147,11 @@ body{
   .featured-services .service-item.item-orange:hover .icon {
     background-color: #f525092f;
   }
-  
+ 
   .featured-services .service-item.item-orange:hover .icon i {
     color: #f52509;
   }
-  
+   /*
   .featured-services .service-item.item-teal .icon {
     background-color: color-mix(in srgb, var(--teal-color) 10%, white 95%);
   }
@@ -190,7 +191,11 @@ body{
   .featured-services .service-item.item-red:hover .icon i {
     color: var(--contrast-color);
   }
-  
+   */
+   .service-item .icon svg {
+    width: 50px;
+    height: 50px;
+   }
 
 /*--------------------------------------------------------------
 # Why Us Section
@@ -248,7 +253,7 @@ body{
   z-index: 3;
 }
 
-.call-to-action h3 {
+/* .call-to-action h3 {
   color: var(--default-color);
   font-size: 28px;
   font-weight: 700;
@@ -256,7 +261,7 @@ body{
 
 .call-to-action p {
   color: var(--default-color);
-}
+} */
 
 .call-to-action .cta-btn {
   font-weight: 500;
@@ -267,7 +272,7 @@ body{
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 1px solid white;
+  border: 2px solid black;
 }
 
 /*--------------------------------------------------------------

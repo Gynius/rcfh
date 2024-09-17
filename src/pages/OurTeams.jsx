@@ -1,3 +1,4 @@
+import JoinUs from "../components/JoinUs";
 import MainTemplate from "../components/MainTemplate";
 import Team from "../components/Team";
 import { Link } from "react-router-dom";
@@ -5,19 +6,19 @@ import { Link } from "react-router-dom";
 function OurTeams() {
   return (
     <MainTemplate>
-    <div className="page-title bg-green text-white flex items-center justify-center arc-bottom">
-        <div className="container position-relative ">
-          <h1>Team</h1>
-          <p>
+      <div className="page-title bg-green text-white flex items-center justify-center arc-bottom alig">
+        <div className="container relative flex flex-col justify-center items-center">
+          <h1 className="font-robotoSlab">Team</h1>
+          <h2 className="font-robotoCondensed py-1 w-4/5 text-center text-lg">
             Because we value our clients and want them to be satisfied with our
             services, we’re committed to hiring only the best individuals in the
             industry. Our recruitment process is intense, and our training
             programs are rigorous. We’re proud of our team of service experts.
-          </p>
+          </h2>
           <nav className="breadcrumbs">
             <ol>
               <li>
-                <a className="text-white px-3 bg-red rounded-full border border-1 border-white">
+                <a className="text-white p-1  border-b-2 border-red">
                   <Link to="/">Home</Link>
                 </a>
               </li>
@@ -27,6 +28,7 @@ function OurTeams() {
         </div>
       </div>
       <Team />
+      <JoinUs />
     </MainTemplate>
   );
 }

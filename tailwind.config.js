@@ -9,11 +9,16 @@ module.exports = {
         green: '#2A966F',
         red: '#F84F39',
         body_bg: '#f1f1f1',
-        g:' #007672'
+        soft_green:' #26d953',
+        soft_red: '#FF736F',
+        custom_bg: '#FBFCFD',
+        g:"#e8f9f1"
+
         
       },
       backgroundImage: {
         hero_bg: "url('/images/hero-bg.png')", // Use absolute path
+        join_us_bg: "url('/images/join-us-bg.jpg')",
       },
       fontSize: {
         xs_sm: '0.8rem', 
@@ -23,6 +28,7 @@ module.exports = {
         serif: ['Georgia', 'Cambria', 'serif'],
         mono: ['Menlo', 'Monaco', 'monospace'],
         roboto: ['Roboto', 'sans-serif'],
+        robotoSlab: ['robot slab', 'serif'],
         robotoCondensed: ['"Roboto Condensed"', 'sans-serif'],
       },
     },

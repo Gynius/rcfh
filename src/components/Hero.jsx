@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Hero() {
   useEffect(() => {
@@ -8,7 +8,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="bg-hero_bg bg-cover bg-bottom :bg-gray-900">
+    <section className="hero bg-hero_bg bg-cover bg-bottom :bg-gray-900 arc-bottom relative ">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a
           href="#"
@@ -34,7 +34,7 @@ function Hero() {
           </svg>
         </a>
         <h1
-          className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl :text-white"
+          className="font-robotoSlab mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl :text-white"
           data-aos="fade-up" // Add AOS attribute
         >
           {
@@ -55,7 +55,7 @@ function Hero() {
           }
         </h1>
         <p
-          className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 :text-gray-400"
+          className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 :text-gray-400 font-robotoCondensed"
           data-aos="fade-up" // Add AOS attribute
           data-aos-delay="200" // Add delay for staggered animation
         >
@@ -68,7 +68,7 @@ function Hero() {
           data-aos-delay="400" // Add delay for staggered animation
         >
           <a
-            href="https://form.jotform.com/240193622260044"
+            href="https://calendly.com/kathy-rcfhagency/60min"
             className="text-red inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-green rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 :focus:ring-primary-900"
           >
             Book a call
@@ -86,7 +86,7 @@ function Hero() {
             </svg>
           </a>
           <a
-            href="https://form.jotform.com/240193622260044"
+            href="https://calendly.com/kathy-rcfhagency/60min"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 :text-white :border-gray-700 :hover:bg-gray-700 bg-red text-white hover:bg-green :focus:ring-gray-800"
           >
             NOW
