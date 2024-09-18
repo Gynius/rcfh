@@ -34,6 +34,9 @@ module.exports = {
         robotoSlab: ['robot slab', 'serif'],
         robotoCondensed: ['"Roboto Condensed"', 'sans-serif'],
       },
+      screens: {
+        xs: '480px', // Define your custom breakpoint here
+      },
     },
   },
   darkMode: 'class',

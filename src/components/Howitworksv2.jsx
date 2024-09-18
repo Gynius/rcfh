@@ -62,8 +62,8 @@ function HowItWorks() {
           >
             <span>03</span>
             <div className="flex gap-2 items-center">
-              <FaRocket className="text-3xl mb-2 text-green" />
-              <h4 className="font-playfair font-bold text-green text-3xl pb-4">
+              <FaRocket className="text-3xl mb-2 text-green group-hover:text-white" />
+              <h4 className="font-playfair font-bold text-green text-3xl pb-4 group-hover:text-white">
                 Deploy
               </h4>
             </div>

@@ -2,13 +2,13 @@ import React from "react";
 
 function JoinUs() {
   return (
-    <div className="join-us border border-1 border-red bg-join_us_bg bg-fixed bg-cover p-20 relative ">
+    <div className="join-us bg-join_us_bg bg-fixed bg-cover p-20 relative ">
       <div className="w-full h-full absolute inset-0 bg-black bg-opacity-50 z-5 "></div>
       <div className="w-full flex flex-col justify-center items-center gap-2">
-        <h1 className="font-playfair text-8xl text-white z-10 font-semibold">
+        <h1 className="font-playfair text-8xl text-white z-10 font-semibold py-3">
           Join Us
         </h1>
-        <h2 className="w-2/5 font-robotoCondensed text-lg text-center z-10 text-white">
+        <h2 className="w-2/5 font-roboto text-lg text-center z-10 text-white">
           We are always on the lookout for motivated and talented individuals to
           join our team. Click the button and let's get started in knowing you
           better.

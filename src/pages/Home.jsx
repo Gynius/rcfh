@@ -118,8 +118,9 @@ function Home() {
       </div>
 
       <WhatWeDo />
-      <CTA_services />
+
       <WhoWeAre />
+      <CTA_services />
     </MainTemplate>
   );
 }
