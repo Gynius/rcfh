@@ -11,7 +11,7 @@ export default function Services() {
     <>
       <section
         id="featured-services"
-        className="featured-services section items-center justify-center mb-10 z-5 relative"
+        className="featured-services section items-center justify-center z-5 relative"
       >
         <div className="w-full">
           <div

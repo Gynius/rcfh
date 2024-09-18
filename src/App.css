@@ -13,6 +13,7 @@
 
 .gradient-hover:hover {
   background: linear-gradient(111.4deg, rgb(67, 222, 67) 18.4%, rgb(0, 232, 237) 100.2%);
+  background: linear-gradient(111.4deg, #2a966f 18.4%,#0b221a 100.2%);
   color: white;
 }
 
