@@ -68,22 +68,22 @@ function Footer() {
               <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-4">
                 <li>
                   <a className="hover:underline text-sm 2xl:text-base">
-                    VA Services
+                    <Link to="/services">VA Services</Link>
                   </a>
                 </li>
                 <li>
                   <a className="hover:underline text-sm 2xl:text-base">
-                    VA Staffing
+                    <Link to="/services">VA Staffing</Link>
                   </a>
                 </li>
                 <li>
                   <a className="hover:underline text-sm 2xl:text-base">
-                    Consulting
+                    <Link to="/services">Consulting</Link>
                   </a>
                 </li>
                 <li>
                   <a className="hover:underline text-sm 2xl:text-base">
-                    Outbound Messaging
+                    <Link to="/services">Outbound Messaging</Link>
                   </a>
                 </li>
               </ul>
@@ -169,7 +169,8 @@ function Footer() {
             style={{ height: "90vh" }}
           >
             <button
-              className="absolute top-2 right-5 text-gray-600 hover:text-gray-900 text-4xl"
+              className="fixed text-gray-600 hover:text-gray-900 text-4xl"
+              style={{ top: "7%", right: "12%" }}
               onClick={closeModal}
             >
               &times;

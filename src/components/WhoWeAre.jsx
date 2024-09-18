@@ -41,7 +41,7 @@ function WhoWeAre() {
       </p>
       <button
         data-aos="fade-up"
-        className="bg-red inline-flex justify-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 hover:bg-green :text-white :border-gray-700 :hover:bg-gray-700 :focus:ring-gray-800 text-white"
+        className="inline-flex justify-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border-2 border-green hover:text-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 hover:bg-green :text-white :border-gray-700 :hover:bg-gray-700 :focus:ring-gray-800 text-green"
       >
         <Link to="/teams">See Our Teams</Link>
       </button>

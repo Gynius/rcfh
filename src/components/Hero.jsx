@@ -69,7 +69,7 @@ function Hero() {
         >
           <a
             href="https://calendly.com/kathy-rcfhagency/60min"
-            className="text-red inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-green rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 :focus:ring-primary-900"
+            className="text-red inline-flex justify-center items-center py-3 px-5 hover:text-green text-base font-medium text-center text-green rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 :focus:ring-primary-900"
           >
             Book a call
             <svg
