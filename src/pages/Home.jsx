@@ -116,6 +116,7 @@ function Home() {
           </a>
         </div>
       </div>
+
       <WhatWeDo />
       <CTA_services />
       <WhoWeAre />
