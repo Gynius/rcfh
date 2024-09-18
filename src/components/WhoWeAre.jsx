@@ -9,32 +9,32 @@ function WhoWeAre() {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className=" w-full h-auto items-center justify-center flex flex-col md:flex-col py-10 bg-gray-200">
-      <h1 className="text-center font-robotoSlab text-5xl py-4 font-semibold text-black">
+    <div className="w-full h-auto items-center justify-center flex flex-col md:flex-col py-10 ">
+      <h1 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5">
         Who We Are
       </h1>
       <h2 className="font-robotoCondensed text-2xl mb-10 text-green">
         Your Partner in Growth and Success
       </h2>
-      <div className="w-4/5 grid gap-4 lg:grid-cols-4 md:grid-cols-2 align-center">
+      <div className="w-3/5 grid gap-4 lg:grid-cols-4 md:grid-cols-2 align-center py-10">
         {items.map((item, index) => {
           return (
             <div
               className="p-4 rounded shadow-md w-full flex flex-col items-center"
-              style={{ background: "#f1f1f1" }}
+              style={{ background: "#fafafa" }}
               key={index}
               data-aos="zoom-in"
             >
               {item.svg("80px", "80px")}
               <h3 className="text-lg font-semibold my-5">{item.title}</h3>
-              <p className="font-normal text-gray-500 text-small">
+              <p className="font-normal text-gray-500 text-base">
                 {item.description}
               </p>
             </div>
           );
         })}
       </div>
-      <p className="font-normal text-small w-4/5 my-10 text-center font-robotoCondensed">
+      <p className="font-roboto text-small w-3/5 my-10 text-center px-20">
         Your business is on the cusp of growth, and our team is here to keep you
         organized and on track to success. Take a look at some of our team
         members and learn a bit more about what they do here at RCFH.

@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 
 function WhatWeDo() {
   return (
-    <div className="flex flex-col md:flex-row w-4/5 my-24 mx-auto">
+    <div className="flex flex-col md:flex-row w-4/5 xl:w-3/5 my-24 mx-auto">
       {/* Text Column */}
       <div className="md:w-1/2 p-4 flex items-center justify-center">
         <div>
-          <h1 className="font-robotoSlab mb-4  font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl :text-white">
+          <h1 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5">
             What we do
           </h1>
           <h2 className="font-robotoCondensed text-2xl text-green mb-4">
             Your Partner in Growth and Success
           </h2>
-          <p className="text-gray-500 font-roboto text-sm">
+          <p className="text-gray-500 font-roboto text-base">
             RCFH started as a leading provider of Virtual Assistants (VA)
             services. Founded in 2022, we’ve made it our mission to help
             businesses achieve their goals by offering top-tier administrative,

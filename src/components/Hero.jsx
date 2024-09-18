@@ -34,7 +34,7 @@ function Hero() {
           </svg>
         </a>
         <h1
-          className="font-robotoSlab mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl :text-white"
+          className="font-playfair mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl :text-white"
           data-aos="fade-up" // Add AOS attribute
         >
           {

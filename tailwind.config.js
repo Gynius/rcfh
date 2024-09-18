@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: '#2A966F',
+        green: '#144835',
+        green_light: '#2a966f',
+        green_dark: '#0b221a',
         red: '#F84F39',
         body_bg: '#f1f1f1',
         soft_green:' #26d953',
@@ -17,7 +19,7 @@ module.exports = {
         
       },
       backgroundImage: {
-        hero_bg: "url('/images/hero-bg.png')", // Use absolute path
+        hero_bg: "url('/images/hero-bg.png')", 
         join_us_bg: "url('/images/join-us-bg.jpg')",
       },
       fontSize: {
@@ -25,6 +27,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Helvetica', 'Arial', 'sans-serif'],
+        playfair: ['"Playfair Display"', 'serif'],
         serif: ['Georgia', 'Cambria', 'serif'],
         mono: ['Menlo', 'Monaco', 'monospace'],
         roboto: ['Roboto', 'sans-serif'],

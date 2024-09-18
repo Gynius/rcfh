@@ -4,7 +4,7 @@ function CTA_services() {
   return (
     <section
       id="call-to-action"
-      className="call-to-action bg-gradient-to-b from-green to-white  text-black flex align-center justify-center font-serif"
+      className="call-to-action bg-gradient-to-b from-green_light to-white  text-black flex align-center justify-center font-serif"
     >
       <div className="container flex flex-col md:flex-row">
         <div
@@ -13,10 +13,10 @@ function CTA_services() {
           data-aos-delay="100"
         >
           <div className="md:w-3/4">
-            <h3 className="text-center text-white text-6xl py-8">
+            <h3 className="font-playfair text-center text-white text-6xl py-8">
               Start your Journey With Us
             </h3>
-            <p className="text-center text-lg md:text-2xl text-6xl py-2">
+            <p className="font-playfair text-center text-lg md:text-2xl text-6xl py-2">
               With our help, you can streamline your processes, increase
               productivity, and achieve your goals faster.
             </p>

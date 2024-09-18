@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root{
-
-}
-
 body{
     background-color: #f1f1f1;
+    background-color: #ffffff;
     overflow-x: hidden;
 }
 
@@ -24,7 +22,6 @@ body{
 
   
   .page-title h1 {
-    font-size: 42px;
     font-weight: 700;
     margin-bottom: 10px;
 
@@ -140,9 +137,7 @@ body{
     color:#f52509;
   }
   
-  .featured-services .service-item.item-orange:hover {
-    border: 1px solid #f52509;
-  }
+
   
   .featured-services .service-item.item-orange:hover .icon {
     background-color: #f525092f;

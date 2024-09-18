@@ -9,10 +9,12 @@ function OurServices() {
     <MainTemplate>
       <div className="page-title text-white flex items-center justify-center bg-green arc-bottom z-10">
         <div class="container relative flex flex-col justify-center items-center ">
-          <h1 className="font-robotoSlab">Services</h1>
-          <p className="font-robotoCondensed py-1 w-4/5 text-center text-lg ">
+          <h1 className="font-playfair mb-4 font-extrabold tracking-tight leading-none text-6xl text-white py-5">
+            Services
+          </h1>
+          <h2 className="font-roboto py-1 w-4/5 text-center text-lg">
             Our VA Solutions and Services Make Your Life Easier
-          </p>
+          </h2>
           <nav class="breadcrumbs">
             <ol>
               <li>

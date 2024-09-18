@@ -11,13 +11,13 @@ function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="how-it-works flex justify-center items-center"
+      className="how-it-works flex justify-center items-center border "
     >
-      <div className="w-4/5 container my-8">
-        <h1 className="text-center font-robotoSlab text-4xl font-semibold py-4 mb-10">
+      <div className="w-4/5 container my-8 flex gap-40">
+        <h1 className="font-playfair mb-4 font-extrabold tracking-tight leading-none text-6xl text-green py-5 text-center w-3/10">
           How it Works
         </h1>
-        <div className="grid grid-cols-2 gap-4 justify-center items-stretch">
+        <div className="grid grid-cols-2 gap-4 justify-center items-stretch w-7/10">
           <div
             className="gradient-hover card border border-red-500 p-4 flex flex-col hover:group text-black rounded-lg"
             data-aos="fade-up"
