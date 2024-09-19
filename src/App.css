@@ -3,13 +3,28 @@
   position: absolute;
   bottom: -80px; /* Position it at the bottom of the parent */
   left: 50%;
-  transform: translateX(-50%); /* Center horizontally */
+  top: 0;
+  transform: translateX(-50%) rotate(180deg); /* Center horizontally and rotate 180 degrees */
   width: 200%;
-  background-color: inherit;
-  height: 70%;
-  border-radius: 50%;
+  height: 100%;
+  background-image: url('/images/bg.png');
   z-index: -1; /* Ensure it’s behind other content */
-  }
+  clip-path: ellipse(40% 100% at 50% 100%);
+}
+
+.page-title.arc-bottom::before {
+  content: '';
+  position: absolute;
+  bottom: -80px; /* Position it at the bottom of the parent */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg); /* Center horizontally and rotate 180 degrees */
+  width: 200%;
+  height: 100%;
+  background-color: rgba(20, 72, 53, .9); /* Semi-transparent overlay */
+  z-index: 1; /* Ensure it’s on top of the red background but behind other content */
+  clip-path: ellipse(40% 100% at 50% 100%);
+}
 
 .gradient-hover:hover {
   background: linear-gradient(111.4deg, rgb(67, 222, 67) 18.4%, rgb(0, 232, 237) 100.2%);

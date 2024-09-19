@@ -9,7 +9,7 @@ function WhoWeAre() {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="w-full h-auto items-center justify-center flex flex-col md:flex-col py-10 ">
+    <div className="w-full h-auto items-center justify-center flex flex-col md:flex-col py-10  ">
       <h1 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5">
         Who We Are
       </h1>

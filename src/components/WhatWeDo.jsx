@@ -9,7 +9,7 @@ function WhatWeDo() {
       <div className="md:w-1/2 p-4 flex items-center justify-center">
         <div>
           <h1 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5">
-            What we do
+            What We Do
           </h1>
           <h2 className="font-robotoCondensed text-2xl text-green mb-4">
             Your Partner in Growth and Success

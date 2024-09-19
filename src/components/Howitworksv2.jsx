@@ -13,7 +13,7 @@ function HowItWorks() {
       id="how-it-works"
       className="how-it-works flex flex-col justify-center items-center border py-20"
     >
-      <div className="w-4/5 container my-8 flex gap-40">
+      <div className="w-4/5 2xl:w-3/5 container my-8 flex gap-40">
         <h1 className="font-playfair font-bold text-green mb-4 font-extrabold tracking-tight leading-none text-6xl text-green py-5 text-center w-3/10">
           How it Works
         </h1>

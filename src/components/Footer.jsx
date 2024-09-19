@@ -23,7 +23,7 @@ function Footer() {
   };
   return (
     <footer className="bg-white :bg-gray-900">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div className="mx-auto  2xl:w-3/5 w-4/5 p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a className="flex items-center">

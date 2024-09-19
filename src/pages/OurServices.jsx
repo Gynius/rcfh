@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 function OurServices() {
   return (
     <MainTemplate>
-      <div className="page-title text-white flex items-center justify-center bg-green arc-bottom z-10">
-        <div class="container relative flex flex-col justify-center items-center ">
+      <div className="page-title text-white flex items-center justify-center bg-white arc-bottom z-10">
+        <div class="container relative flex flex-col justify-center items-center z-10">
           <h1 className="font-playfair mb-4 font-extrabold tracking-tight leading-none text-6xl text-white py-5">
             Services
           </h1>
-          <h2 className="font-roboto py-1 w-4/5 text-center text-lg">
+          <h2 className="font-roboto py-1 w-4/5 text-center text-white text-lg">
             Our VA Solutions and Services Make Your Life Easier
           </h2>
           <nav class="breadcrumbs">
@@ -22,7 +22,7 @@ function OurServices() {
                   <Link to="/">Home</Link>
                 </a>
               </li>
-              <li class="current">Services</li>
+              <li class="current text-white">Services</li>
             </ol>
           </nav>
         </div>

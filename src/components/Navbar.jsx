@@ -10,8 +10,8 @@ const Nav = () => {
   };
 
   return (
-    <nav className="sticky top-0 bg-white border-gray-200 shadow-md :bg-gray-900 :border-gray-700 border-b z-50">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="sticky top-0 bg-white border-gray-200 shadow-md :bg-gray-900 :border-gray-700 border-b z-50  ">
+      <div className="flex flex-wrap items-center justify-between mx-auto p-4 2xl:w-3/5 w-4/5">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://static.wixstatic.com/media/368cfa_281c9844ac5a4fd0b0b3c605c91c63c6~mv2.png/v1/fill/w_150,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WS_GraphicsLogoA.png"
@@ -47,33 +47,42 @@ const Nav = () => {
           </svg>
         </button>
         <div
-          className={`w-full md:block md:w-auto ${toggle ? "block" : "hidden"}`} // Conditionally show/hide the menu
+          className={`w-full md:block md:w-auto ${
+            toggle ? "block" : "hidden"
+          } `} // Conditionally show/hide the menu
           id="navbar-multi-level"
         >
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
-            <li>
+          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 border">
+            <li className="text-center flex items-center hover:text-green">
               <Link
                 to="/"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 :text-white :hover:bg-gray-700 :hover:text-white md::hover:text-blue-500"
+                className="border-b-2 border-transparent hover:border-green"
               >
                 Home
               </Link>
             </li>
-            <li>
+            <li className="text-center flex items-center group hover:text-green">
               <Link
                 to="/teams"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 :text-white :hover:bg-gray-700 :hover:text-white md::hover:text-blue-500"
+                className="border-b-2 border-transparent hover:border-green"
               >
                 Our Teams
               </Link>
             </li>
-            <li>
+            <li className="text-center flex items-center hover:text-green">
               <Link
                 to="/services"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 :text-white :hover:bg-gray-700 :hover:text-white md::hover:text-blue-500"
+                className="border-b-2 border-transparent hover:border-green"
               >
                 Our Services
               </Link>
+            </li>
+            <li className="text-center flex items-center hover:text-green">
+              <a href="https://calendly.com/kathy-rcfhagency/60min">
+                <button className="border rounded-full px-5 py-3  bg-red text-white shadow">
+                  Book A Call
+                </button>
+              </a>
             </li>
           </ul>
         </div>
