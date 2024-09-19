@@ -16,7 +16,7 @@ const Nav = () => {
           <img
             src="https://static.wixstatic.com/media/368cfa_281c9844ac5a4fd0b0b3c605c91c63c6~mv2.png/v1/fill/w_150,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WS_GraphicsLogoA.png"
             className="h-8"
-            alt="Flowbite Logo"
+            alt="logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap :text-white">
             RCFH
@@ -75,6 +75,14 @@ const Nav = () => {
                 className="border-b-2 border-transparent hover:border-green"
               >
                 Our Services
+              </Link>
+            </li>
+            <li className="text-center flex items-center hover:text-green">
+              <Link
+                to="/va-ninja"
+                className="border-b-2 border-transparent hover:border-green"
+              >
+                Become VA Ninja
               </Link>
             </li>
             <li className="text-center flex items-center hover:text-green">
