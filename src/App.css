@@ -68,17 +68,37 @@ background-color: #e8f9f1;
   scrollbar-width: none;  /* Firefox */
 }
 
-.ninja-header::before {
-  content: "";
+.va-ninja.arc-bottom::after {
+  content: '';
   position: absolute;
+  bottom: -80px; /* Position it at the bottom of the parent */
+  left: 50%;
   top: 0;
-  left: 0;
-  width: 100%;
+  transform: translateX(-50%); /* Center horizontally */
+  width: 200%;
   height: 100%;
-  background-color: rgba(20, 72, 53, .3); /* Semi-transparent overlay */
-  z-index: 1; /* Ensure the overlay is behind the content */
+  background-image: url('/images/ninja2.jpg');
+  background-position: 10% 10%; /* Custom position */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; /* Ensure it’s behind other content */
+  clip-path: ellipse(40% 100% at 50% 0%); /* Curve at the bottom */
 }
 
+
+.va-ninja.arc-bottom::before {
+  content: '';
+  position: absolute;
+  bottom: -80px; /* Position it at the bottom of the parent */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg); /* Center horizontally and rotate 180 degrees */
+  width: 200%;
+  height: 100%;
+  background-color: rgba(20, 72, 53, .4); /* Semi-transparent overlay */
+  z-index: 1; /* Ensure it’s on top of the red background but behind other content */
+  clip-path: ellipse(40% 100% at 50% 100%);
+}
 
 .subscribe-form::after {
   content: '';

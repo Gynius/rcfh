@@ -82,7 +82,7 @@ const Nav = () => {
                 to="/va-ninja"
                 className="border-b-2 border-transparent hover:border-green"
               >
-                Become VA Ninja
+                Become a VA Ninja
               </Link>
             </li>
             <li className="text-center flex items-center hover:text-green">
