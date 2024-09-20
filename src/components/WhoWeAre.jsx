@@ -9,12 +9,12 @@ function WhoWeAre() {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="w-full h-auto items-center justify-center flex flex-col md:flex-col py-10  ">
-      <h1 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5">
+    <div className="w-full h-auto items-center justify-center flex flex-col md:flex-col py-10">
+      <h1 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5 text-right">
         Who We Are
       </h1>
       <h2 className="font-robotoCondensed text-2xl mb-10 text-green">
-        Your Partner in Growth and Success
+        RCFH is your trusted Business Partner
       </h2>
       <div className="w-4/5 2xl:w-3/5 grid gap-4 lg:grid-cols-4 md:grid-cols-2 align-center py-10">
         {items.map((item, index) => {
@@ -34,7 +34,7 @@ function WhoWeAre() {
           );
         })}
       </div>
-      <p className="font-roboto text-small my-10 text-center px-20 w-full">
+      <p className="font-roboto text-small my-10 text-center px-20 w-4/5 2xl:w-3/5">
         Your business is on the cusp of growth, and our team is here to keep you
         organized and on track to success. Take a look at some of our team
         members and learn a bit more about what they do here at RCFH.

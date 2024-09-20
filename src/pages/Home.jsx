@@ -3,7 +3,7 @@ import MainTemplate from "../components/MainTemplate";
 import WhatWeDo from "../components/WhatWeDo";
 import WhoWeAre from "../components/WhoWeAre";
 import CTA_services from "../components/CTA_services";
-import CTA_call from "../components/CTABookCall";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 function Home() {
   return (
@@ -118,6 +118,7 @@ function Home() {
       </div>
       <WhatWeDo />
       <WhoWeAre />
+      <WhyChooseUs />
       <CTA_services />
     </MainTemplate>
   );

@@ -33,7 +33,7 @@ function Footer() {
                   className="h-8 me-3"
                   alt="rcfh"
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap :text-white">
+                <span className="font-playfair self-center text-2xl font-bold whitespace-nowrap :text-white">
                   RCFH
                 </span>
               </Link>

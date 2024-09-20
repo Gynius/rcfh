@@ -18,7 +18,7 @@ const Nav = () => {
             className="h-8"
             alt="logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap :text-white">
+          <span className="font-playfair self-center text-2xl font-semibold whitespace-nowrap :text-white">
             RCFH
           </span>
         </a>
