@@ -19,7 +19,7 @@ function SubscribeForm() {
             to your inbox. It’s quick, easy, and absolutely free!
           </p>
           <input
-            className="bg-transparent border-2 border-white leading-relaxed px-5"
+            className="bg-white border-2 border-white leading-relaxed px-5 "
             type="text"
             placeholder="Enter your email"
             style={{ lineHeight: "2.5rem" }}

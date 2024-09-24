@@ -10,7 +10,7 @@ function AsVANinja() {
           </h1>
         </div>
         <div className="bg-white text-green w-1/2 p-10 rounded-lg">
-          <p className="text-sm">
+          <p className="text-sm 2xl:text-base">
             At RCFH, we take pride in our Virtual Assistant Ninjas — the unseen
             and unheard masters of efficiency. As a Virtual Assistant Ninja, you
             won’t just complete tasks; you’ll anticipate needs, solve problems

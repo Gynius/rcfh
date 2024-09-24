@@ -123,3 +123,16 @@ background-color: #e8f9f1;
   background-color: rgba(20, 72, 53, .9); /* Semi-transparent overlay */
   z-index: 1; /* Ensure the overlay is behind the content */
 }
+
+
+.circle-big::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f84f3962;
+  border-radius: inherit; /* Ensures the overlay has the same border radius as the parent */
+  z-index: 0; /* Ensure the overlay is behind the content but above the background image */
+}
