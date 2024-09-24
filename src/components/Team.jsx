@@ -50,7 +50,7 @@ function Team() {
           <div className="member" data-aos="fade-up" data-aos-delay="200">
             <div className="member-img">
               <img
-                src="/images/team/team2.jpg"
+                src="/images/team/logan.jpg"
                 className="w-full object-cover"
                 style={{ height: "20rem" }}
                 alt="Team Member 1"
