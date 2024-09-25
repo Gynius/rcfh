@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FaArrowRight,
   FaUser,
@@ -7,6 +7,8 @@ import {
   FaLaptopCode,
 } from "react-icons/fa";
 import { MdWork, MdGroup, MdMessage, MdSettings } from "react-icons/md";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ninja_tasks = [
   {
@@ -42,6 +44,10 @@ const ninja_tasks = [
 ];
 
 function VaNinjaLoop() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <section className="flex w-full justify-center py-10">
       <div className="w-4/5 2xl:w-3/5 container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -50,6 +56,7 @@ function VaNinjaLoop() {
             <div
               className="border px-5 py-2 flex flex-col justify-between rounded-lg drop-shadow-md  bg-white"
               key={index}
+              data-aos="zoom-in"
             >
               <div className="flex justify-between py-5">
                 <h1 className="font-playfair font-extrabold text-xl w-1/2 text-green 2xl:text-2xl">

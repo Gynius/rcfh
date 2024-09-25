@@ -95,7 +95,10 @@ function PerksNBenefits() {
         <h1 className="text-center font-playfair text-6xl font-extrabold text-green py-10">
           Perks and Benefits
         </h1>
-        <div className="container py-10 w-full flex justify-evenly gap-6  flex-wrap">
+        <div
+          className="container py-10 w-full flex justify-evenly gap-6  flex-wrap"
+          data-aos="fade-up"
+        >
           <div className="card container flex flex-col items-center gap-4 xl:w-1/6  xs_s:w-1/3">
             <div className=" border-4 border-green text-white rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center hover:bg-green_dark">
               <FaEnvelope className="text-4xl xl:text-6xl text-red " />

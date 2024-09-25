@@ -4,7 +4,10 @@ import { FaFacebook, FaLinkedin, FaGoogle, FaSync } from "react-icons/fa";
 function SubscribeForm() {
   return (
     <section className="flex justify-center " id="subscribe-form">
-      <div className="subscribe-form border flex border bg-cover bg-bottom overflow-hidden  z-10 relative rounded-lg w-full">
+      <div
+        className="subscribe-form border flex border bg-cover bg-bottom overflow-hidden  z-10 relative rounded-lg w-full"
+        data-aos="fade-left"
+      >
         <div className="form-image w-1/3 h-full flex items-base justify-end p-10 z-20 hidden 2xl:flex">
           <FaSync size={200} className="text-green_dark" />
         </div>
