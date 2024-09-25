@@ -2,12 +2,12 @@ import React from "react";
 
 function SystemRequirements() {
   return (
-    <section className=" flex justify-center items-center flex-col">
-      <h1 className="font-playfair font-extrabold text-6xl py-10 text-green">
+    <section className="flex justify-center items-center flex-col pb-20 ">
+      <h1 className="font-playfair font-extrabold text-6xl py-20 text-green  text-center">
         System Requirements
       </h1>
-      <div className="container w-4/5 grid grid-cols-2">
-        <div className=" p-4 border-r-4 border-black text-right hover:bg-green">
+      <div className="container w-4/5 grid grid-cols-2 border py-10 bg-gray-50 text-sm 2xl:text-base">
+        <div className=" p-4 border-r-4 border-black text-right">
           <h1 className="font-extrabold">WINDOWS</h1>
           <ul>
             <li>Windows 64 Bit Desktop/Laptop</li>
@@ -26,7 +26,7 @@ function SystemRequirements() {
             </li>
           </ul>
         </div>
-        <div className=" p-4 hover:bg-red ">
+        <div className=" p-4">
           <h1 className="font-extrabold">MAC</h1>
           <ul>
             <li>macOS Catalina and newer</li>

@@ -43,7 +43,7 @@ const ninja_tasks = [
 
 function VaNinjaLoop() {
   return (
-    <section className="flex w-full justify-center py-10 bg-gray-100">
+    <section className="flex w-full justify-center py-10">
       <div className="w-4/5 2xl:w-3/5 container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {ninja_tasks.map((task, index) => {
           return (

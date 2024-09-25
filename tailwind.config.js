@@ -35,7 +35,7 @@ module.exports = {
         robotoCondensed: ['"Roboto Condensed"', 'sans-serif'],
       },
       screens: {
-        xs: '480px', // Define your custom breakpoint here
+        xs_s: '360px', // Define your custom breakpoint here
       },
     },
   },
