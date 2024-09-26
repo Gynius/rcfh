@@ -38,7 +38,7 @@ function WhatWeDo() {
         {/* Image */}
 
         <img
-          src="/images/team/team-6.jpg"
+          src="/images/team/jess-op.png"
           alt="Sample"
           className=" w-full h-auto object-cover rounded-lg z-10 h-96"
         />

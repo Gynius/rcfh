@@ -14,10 +14,15 @@ function Team() {
     >
       <div className="2xl:w-3/5 w-4/5 container">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="member" data-aos="fade-up" data-aos-delay="100">
+          <div
+            className="member"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-once="true"
+          >
             <div className="member-img">
               <img
-                src="/images/team/team1.png"
+                src="/images/team/jess-op.png"
                 className="w-full object-cover"
                 style={{ height: "20rem" }}
                 alt="Team Member 1"
@@ -47,7 +52,12 @@ function Team() {
             </div>
           </div>
 
-          <div className="member" data-aos="fade-up" data-aos-delay="200">
+          <div
+            className="member"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-once="true"
+          >
             <div className="member-img">
               <img
                 src="/images/team/logan.jpg"

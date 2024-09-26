@@ -18,11 +18,13 @@ function OurServices() {
           <nav class="breadcrumbs">
             <ol>
               <li>
-                <a className="text-white p-1  border-b-2 border-red">
+                <a className="text-white p-1 ">
                   <Link to="/">Home</Link>
                 </a>
               </li>
-              <li class="current text-white">Services</li>
+              <li class="current text-white ">
+                <a className=" border-b-2 border-red p-1">Services</a>
+              </li>
             </ol>
           </nav>
         </div>

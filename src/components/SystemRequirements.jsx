@@ -16,9 +16,9 @@ function SystemRequirements() {
       <h1 className="font-playfair font-extrabold text-6xl py-10 text-green text-center">
         System Requirements
       </h1>
-      <div className="container w-4/5 grid py-10 text-sm 2xl:text-base gap-2 lg:grid-cols-2 sm:grid-cols-1">
+      <div className="container w-4/5 grid py-10 text-sm 2xl:text-base gap-2 lg:grid-cols-2 sm:grid-cols-1 2xl:w-3/5">
         <div
-          className="p-4  flex flex-col justify-center items-center hover:bg-green_dark hover:text-white text-black rounded-lg border-2"
+          className="p-10  flex flex-col justify-center items-center hover:bg-green_dark hover:text-white text-black rounded-lg border-2"
           data-aos="fade-right"
         >
           <div className="flex items-center w-fit p-5 ">
@@ -68,7 +68,7 @@ function SystemRequirements() {
           </ul>
         </div>
         <div
-          className=" p-4 flex flex-col items-center border-2 rounded-lg hover:bg-green_dark hover:text-white"
+          className=" p-10 flex flex-col items-center border-2 rounded-lg hover:bg-green_dark hover:text-white"
           data-aos="fade-left"
         >
           <div className=" flex justify-center items-center w-fit p-5">

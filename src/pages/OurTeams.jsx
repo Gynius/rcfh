@@ -1,6 +1,7 @@
 import JoinUs from "../components/JoinUs";
 import MainTemplate from "../components/MainTemplate";
 import Team from "../components/Team";
+import VASpotlight from "../components/VASpotlight";
 import { Link } from "react-router-dom";
 
 function OurTeams() {
@@ -20,15 +21,18 @@ function OurTeams() {
           <nav className="breadcrumbs pt-5">
             <ol>
               <li>
-                <a className="text-white p-1 border-b-2 border-red">
+                <a className="text-white p-1 ">
                   <Link to="/">Home</Link>
                 </a>
               </li>
-              <li className="current text-white">Team</li>
+              <li className="current text-white">
+                <a className="p-1 border-b-2 border-red">Teams</a>
+              </li>
             </ol>
           </nav>
         </div>
       </div>
+      <VASpotlight />
       <Team />
       <JoinUs />
     </MainTemplate>
