@@ -57,6 +57,7 @@ function VaNinjaLoop() {
               className="border px-5 py-2 flex flex-col justify-between rounded-lg drop-shadow-md  bg-white"
               key={index}
               data-aos="zoom-in"
+              data-aos-once="true"
             >
               <div className="flex justify-between py-5">
                 <h1 className="font-playfair font-extrabold text-xl w-1/2 text-green 2xl:text-2xl">

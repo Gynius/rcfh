@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-
 import { Link } from "react-router-dom";
+import { FaLinkedin, FaFacebook } from "react-icons/fa";
 function Footer() {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
   const [activeTab, setActiveTab] = useState("terms");
@@ -46,7 +46,7 @@ function Footer() {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 b">
-            <div>
+            <div className="pt-2">
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase :text-white">
                 Contact
               </h2>
@@ -61,7 +61,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="pt-2">
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Services
               </h2>
@@ -89,7 +89,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div>
+            <div className="pt-2">
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase :text-white">
                 Legal
               </h2>
@@ -128,19 +128,8 @@ function Footer() {
               href="https://www.facebook.com/people/RCFH/65555467765595/"
               className="text-gray-500 hover:text-gray-900 :hover:text-white mx-2"
             >
-              <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 8 59"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M6.535 3H8V0H6.535a4.547 4.547 0 0 0-4.542 4.542V6H0v3h2v9.938h3V9h2.025l.592-3H5V3.595A.6.6 0 0 5 5.592 3h.543Z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <FaFacebook size={24} className="text-black" />
+
               <span className="sr-only">Facebook page</span>
             </a>
 
@@ -148,15 +137,7 @@ function Footer() {
               href="https://ph.linkedin.com/company/reliable-consulting-for-hire"
               className="text-gray-500 hover:text-gray-900 :hover:text-white"
             >
-              <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22.23 0H5.77C.79 0 0 .77 0 5.72v20.56C0 23.23.79 24 5.77 24h20.46c.98 0 5.77-.77 5.77-5.72V5.72C24 .77 23.25 0 22.23 0zM7.52 20.45H3.56V9h3.56v5.45zM5.34 7.58c-5.54 0-2.06-.92-2.06-2.06s.92-2.06 2.06-2.06 2.06.92 2.06 2.06-.92 2.06-2.06 2.06zM20.45 20.45h-3.56v-5.6c0-5.34-.03-3.07-5.87-3.07-5.87 0-2.56 5.46-2.56 2.97v5.7h-3.56V9h3.42v5.56h.05c.48-.9 5.65-5.85 3.4-5.85 3.63 0 4.3 2.39 4.3 5.5v6.24z" />
-              </svg>
+              <FaLinkedin size={24} className="text-black" />
               <span className="sr-only">LinkedIn page</span>
             </a>
           </div>

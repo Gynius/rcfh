@@ -47,9 +47,9 @@ const Nav = () => {
           </svg>
         </button>
         <div
-          className={`w-full md:block md:w-auto ${
+          className={`w-full md:block lg:w-auto ${
             toggle ? "block" : "hidden"
-          } `} // Conditionally show/hide the menu
+          } md:flex md:justify-center`} // Conditionally show/hide the menu
           id="navbar-multi-level"
         >
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 border">
@@ -85,7 +85,7 @@ const Nav = () => {
                 Become a VA Ninja
               </Link>
             </li>
-            <li className="text-center flex items-center hover:text-green">
+            <li className="text-center flex items-center hover:text-green hidden md:flex">
               <a href="https://calendly.com/kathy-rcfhagency/60min">
                 <button className="border rounded-full px-5 py-3  bg-red text-white shadow">
                   Book A Call

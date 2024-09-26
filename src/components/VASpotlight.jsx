@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 function VASpotlight() {
   const vaSpotlights = [
@@ -17,14 +18,14 @@ function VASpotlight() {
         "Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow",
     },
     {
-      image: "/images/team/someone-3.jpg",
+      image: "/images/team/team-3.jpg",
       name: "Someone Else",
       title: "Another Role",
       description:
         "Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow",
     },
     {
-      image: "/images/team/someone-4.jpg",
+      image: "/images/team/team-4.jpg",
       name: "Another Person",
       title: "Different Role",
       description:
@@ -38,7 +39,7 @@ function VASpotlight() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % vaSpotlights.length);
-    }, 1000000); // Change the slide every 5 seconds
+    }, 5000); // Change the slide every 5 seconds
 
     return () => clearInterval(interval); // Cleanup interval on unmount
   }, []);
@@ -62,28 +63,42 @@ function VASpotlight() {
   ];
 
   return (
-    <section className="spotlight-container flex flex-col w-full  justify-center items-center relative 2-4 py-20">
-      <h1 className="text-center text-6xl">VA Spotlights</h1>
-      <div className="carousel  w-4/5 flex relative my-20 h-96">
+    <section className="spotlight-container flex flex-col w-full justify-center items-center relative py-20">
+      <h1 className="text-center text-6xl font-playfair font-extrabold text-green">
+        VA Spotlights
+      </h1>
+      <div className="carousel  w-4/5 flex relative my-20 h-96 justify-center">
         {itemsToShow.map((spotlight, index) => (
           <div
             key={index}
-            className={`spotlight-item ${index === 1 ? "center" : ""} `}
+            className={`spotlight-item ${
+              index === 1 ? "center" : "side"
+            } flex-col`}
           >
-            <img src={spotlight.image} alt={spotlight.name} />
+            <img
+              src={spotlight.image}
+              alt={spotlight.name}
+              className="w-full h-auto object-cover"
+            />
             <div className="right text-left">
-              <h3>{spotlight.name}</h3>
-              <h4>{spotlight.title}</h4>
-              <p>{spotlight.description}</p>
+              <h3 className="font-playfair font-extrabold text-center text-2xl">
+                {spotlight.name}
+              </h3>
+              <h4 className="font-robotoCondensed text-sm text-center pb-2 text-gray-500">
+                {spotlight.title}
+              </h4>
+              <p className=" font-roboto px-5 text-justify md:text-base text-xs">
+                {spotlight.description}
+              </p>
             </div>
           </div>
         ))}
       </div>
       <button className="carousel-button prev absolute" onClick={handlePrev}>
-        Prev
+        <FaArrowLeft />
       </button>
       <button className="carousel-button next absolute" onClick={handleNext}>
-        Next
+        <FaArrowRight />
       </button>
     </section>
   );

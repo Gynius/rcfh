@@ -90,7 +90,12 @@ function Team() {
             </div>
           </div>
 
-          <div className="member" data-aos="fade-up" data-aos-delay="300">
+          <div
+            className="member"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-once="true"
+          >
             <div className="member-img">
               <img
                 src="/images/team/team-3.jpg"
@@ -123,7 +128,12 @@ function Team() {
             </div>
           </div>
 
-          <div className="member" data-aos="fade-up" data-aos-delay="400">
+          <div
+            className="member"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-once="true"
+          >
             <div className="member-img">
               <img
                 src="/images/team/team-4.jpg"
@@ -156,7 +166,12 @@ function Team() {
             </div>
           </div>
 
-          <div className="member" data-aos="fade-up" data-aos-delay="500">
+          <div
+            className="member"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-once="true"
+          >
             <div className="member-img">
               <img
                 src="/images/team/team-5.jpg"
@@ -189,7 +204,12 @@ function Team() {
             </div>
           </div>
 
-          <div className="member" data-aos="fade-up" data-aos-delay="600">
+          <div
+            className="member"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-once="true"
+          >
             <div className="member-img">
               <img
                 src="/images/team/team-6.jpg"

@@ -31,25 +31,25 @@ function SubscribeForm() {
           </button>
           <div className="social-media flex gap-3 ml-auto mt-4">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/people/RCFH/65555467765595/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook size={24} className="text-green_dark" />
+              <FaFacebook size={24} className="text-white" />
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://ph.linkedin.com/company/reliable-consulting-for-hire"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={24} className="text-green_dark" />
+              <FaLinkedin size={24} className="text-white" />
             </a>
             <a
-              href="https://www.google.com"
+              href="mailto:support@rcfhagency.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGoogle size={24} className="text-green_dark" />
+              <FaGoogle size={24} className="text-white" />
             </a>
           </div>
         </div>

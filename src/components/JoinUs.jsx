@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function JoinUs() {
   return (
     <div className="join-us bg-join_us_bg bg-fixed bg-cover p-20 relative h-screen justify-center items-center flex">
@@ -13,14 +13,14 @@ function JoinUs() {
           join our team. Click the button and let's get started in knowing you
           better.
         </h2>
-        <a href="https://form.jotform.com/240193622260044">
+        <Link to="/va-ninja">
           <button
             data-aos="fade-up"
             className="bg-red inline-flex justify-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 hover:bg-green :text-white :border-gray-700 :hover:bg-gray-700 :focus:ring-gray-800 text-white"
           >
             Join Us
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );

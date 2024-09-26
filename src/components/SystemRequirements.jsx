@@ -18,8 +18,9 @@ function SystemRequirements() {
       </h1>
       <div className="container w-4/5 grid py-10 text-sm 2xl:text-base gap-2 lg:grid-cols-2 sm:grid-cols-1 2xl:w-3/5">
         <div
-          className="p-10  flex flex-col justify-center items-center hover:bg-green_dark hover:text-white text-black rounded-lg border-2"
+          className="p-10  flex flex-col justify-center items-center hover:bg-green hover:text-white text-black rounded-lg border-2"
           data-aos="fade-right"
+          data-aos-once="true"
         >
           <div className="flex items-center w-fit p-5 ">
             <FaWindows className="text-6xl" />
@@ -68,8 +69,9 @@ function SystemRequirements() {
           </ul>
         </div>
         <div
-          className=" p-10 flex flex-col items-center border-2 rounded-lg hover:bg-green_dark hover:text-white"
+          className=" p-10 flex flex-col items-center border-2 rounded-lg hover:bg-green hover:text-white"
           data-aos="fade-left"
+          data-aos-once="true"
         >
           <div className=" flex justify-center items-center w-fit p-5">
             <FaApple className="text-6xl " />

@@ -24,6 +24,7 @@ function WhoWeAre() {
               style={{ background: "#fafafa" }}
               key={index}
               data-aos="zoom-in"
+              data-aos-once="true"
             >
               {item.svg("80px", "80px")}
               <h3 className="text-lg font-semibold my-5">{item.title}</h3>
