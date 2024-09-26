@@ -21,7 +21,7 @@ export default function Services() {
           >
             {services.map((service, index) => (
               <div
-                className="service-item item-orange position-relative w-full p-0 grid grid-cols-1 grid-rows-[auto,auto,1fr] group relative justify-items-center items-center py-36 px-8 gap-5 "
+                className="service-item item-orange position-relative w-full p-0 grid grid-cols-1 grid-rows-[auto,auto,1fr] group relative justify-items-center items-center p-8 2xl:py-36 gap-5 "
                 key={index}
               >
                 <div className="icon row-span-1 group-hover:z-10 flex items-center justify-center w-20 h-20 text-red rounded-full group-hover:text-white ">
