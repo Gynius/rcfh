@@ -4,12 +4,7 @@ function CTA_services() {
   return (
     <section
       id="call-to-action"
-      className="call-to-action bg-gradient-to-b from-green_light to-white text-black flex align-center justify-center font-serif mt5 border"
-      // style={{
-      //   minHeight: "70vh",
-      //   background:
-      //     "linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(42, 150, 111, 0.3) 25%, rgba(42, 150, 111, 0.5) 50%, rgba(42, 150, 111, 0.3) 75%, rgba(255, 255, 255, 1) 100%)",
-      // }}
+      className="call-to-action bg-gradient-to-b from-green_light to-white text-black flex align-center justify-center font-serif mt-5 relative"
     >
       <div className="container flex flex-col md:flex-row">
         <div

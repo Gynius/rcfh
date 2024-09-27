@@ -98,7 +98,7 @@ function Team() {
           >
             <div className="member-img">
               <img
-                src="/images/team/team-3.jpg"
+                src="/images/team/team-6.jpg"
                 className="w-full h-64 object-cover"
                 style={{ height: "20rem" }}
                 alt="Team Member 3"
@@ -195,8 +195,8 @@ function Team() {
               </div>
             </div>
             <div className="member-info text-center">
-              <h4>Brian Doe</h4>
-              <span>Marketing</span>
+              <h4>Someone Else</h4>
+              <span>Another Role</span>
               <p>
                 Qui consequuntur quos accusamus magnam quo est molestiae eius
                 laboriosam sunt doloribus quia impedit laborum velit
@@ -233,8 +233,8 @@ function Team() {
               </div>
             </div>
             <div className="member-info text-center">
-              <h4>Josepha Palas</h4>
-              <span>Operation</span>
+              <h4>Another Person</h4>
+              <span>Different Role</span>
               <p>
                 Sint sint eveniet explicabo amet consequatur nesciunt error enim
                 rerum earum et omnis fugit eligendi cupiditate vel

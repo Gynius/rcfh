@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function WhatWeDo() {
   return (
-    <div className="flex flex-col md:flex-row w-4/5 2xl:w-3/5 my-24 mx-auto">
+    <div className="flex flex-col md:flex-row w-4/5 2xl:w-3/5 sm:my-0 lg:my-24 mx-auto">
       {/* Text Column */}
       <div className="md:w-1/2 p-4 flex items-center justify-center">
         <div>

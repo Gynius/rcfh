@@ -8,7 +8,7 @@ function JoinUs() {
         <h1 className="font-playfair text-8xl text-white z-10 font-semibold py-3">
           Join Us
         </h1>
-        <h2 className="w-2/5 font-roboto text-lg text-center z-10 text-white">
+        <h2 className="lg:w-2/5 sm:w-4/5 font-roboto text-lg text-center z-10 text-white py-10">
           We are always on the lookout for motivated and talented individuals to
           join our team. Click the button and let's get started in knowing you
           better.

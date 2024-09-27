@@ -64,21 +64,21 @@ function VASpotlight() {
 
   return (
     <section className="spotlight-container flex flex-col w-full justify-center items-center relative py-20">
-      <h1 className="text-center text-6xl font-playfair font-extrabold text-green">
+      <h1 className="w-4/5 text-center text-6xl font-playfair mb-4  font-extrabold tracking-tight leading-none text-green mb-10">
         VA Spotlights
       </h1>
-      <div className="carousel  w-4/5 flex relative my-20 h-96 justify-center">
+      <div className="carousel  w-4/5 flex relative my-20 justify-center ">
         {itemsToShow.map((spotlight, index) => (
           <div
             key={index}
             className={`spotlight-item ${
               index === 1 ? "center" : "side"
-            } flex-col`}
+            } flex-col w-4/5`}
           >
             <img
               src={spotlight.image}
               alt={spotlight.name}
-              className="w-full h-auto object-cover"
+              className="h-auto object-cover lg:w-3/5 rounded-lg aspect-square w-full "
             />
             <div className="right text-left">
               <h3 className="font-playfair font-extrabold text-center text-2xl">
@@ -87,7 +87,7 @@ function VASpotlight() {
               <h4 className="font-robotoCondensed text-sm text-center pb-2 text-gray-500">
                 {spotlight.title}
               </h4>
-              <p className=" font-roboto px-5 text-justify md:text-base text-xs">
+              <p className=" font-roboto text-center text-base">
                 {spotlight.description}
               </p>
             </div>

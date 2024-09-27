@@ -15,8 +15,8 @@ AOS.init();
 function PerksNBenefits() {
   return (
     <>
-      <section className="py-10 m-10 flex flex-col justify-center items-center gap-2 ">
-        <h1 className="text-center font-playfair text-6xl font-extrabold text-green py-10 bo">
+      <section className=" py-10 flex flex-col justify-center items-center gap-2 ">
+        <h1 className="text-center font-playfair text-6xl font-extrabold tracking-tight leading-none text-green py-10 bo">
           Perks and Benefits
         </h1>
         <div
@@ -28,7 +28,7 @@ function PerksNBenefits() {
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green text-white rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
-                  <FaEnvelope className="text-4xl xl:text-6xl text-red" />
+                  <FaEnvelope className="text-4xl xl:text-6xl text-green" />
                 </div>
                 <h1 className="text-center w-4/5 text-xl">
                   Professional Environment
@@ -46,7 +46,7 @@ function PerksNBenefits() {
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
-                  <FaMoneyBillWave className="text-4xl xl:text-6xl text-red" />
+                  <FaMoneyBillWave className="text-4xl xl:text-6xl text-green" />
                 </div>
                 <h1 className="text-center w-4/5 text-xl">
                   Competitive pay and job security
@@ -64,7 +64,7 @@ function PerksNBenefits() {
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
-                  <FaArrowRight className="text-4xl xl:text-6xl text-red" />
+                  <FaArrowRight className="text-4xl xl:text-6xl text-green" />
                 </div>
                 <h1 className="text-center w-4/5 text-xl">
                   Flexible WFH options
@@ -82,7 +82,7 @@ function PerksNBenefits() {
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
-                  <FaChartLine className="text-4xl xl:text-6xl text-red" />
+                  <FaChartLine className="text-4xl xl:text-6xl text-green" />
                 </div>
                 <h1 className="text-center w-4/5 text-xl">
                   Performance appraisals and incentives
@@ -100,7 +100,7 @@ function PerksNBenefits() {
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
-                  <FaChartBar className="text-4xl xl:text-6xl text-red" />
+                  <FaChartBar className="text-4xl xl:text-6xl text-green" />
                 </div>
                 <h1 className="text-center w-4/5 text-xl">
                   Career Growth opportunities
