@@ -13,9 +13,12 @@ function CTA_services() {
           data-aos-delay="100"
         >
           <div className="md:w-3/4">
-            <h3 className="font-playfair text-center text-white font-extrabold text-5xl py-8">
+            <h2
+              className="font-playfair text-center text-white font-extrabold
+              text-5xl py-8"
+            >
               Start your Journey With Us
-            </h3>
+            </h2>
             <p className="font-playfair text-center text-lg md:text-2xl text-6xl py-2">
               With our help, you can streamline your processes, increase
               productivity, and achieve your goals faster.

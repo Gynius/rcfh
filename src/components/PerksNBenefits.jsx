@@ -16,9 +16,9 @@ function PerksNBenefits() {
   return (
     <>
       <section className=" py-10 flex flex-col justify-center items-center gap-2 ">
-        <h1 className="text-center font-playfair text-6xl font-extrabold tracking-tight leading-none text-green py-10 bo">
+        <h2 className="text-center font-playfair text-6xl font-extrabold tracking-tight leading-none text-green py-10 bo">
           Perks and Benefits
-        </h1>
+        </h2>
         <div
           className="container py-10 w-full flex justify-evenly gap-6 flex-wrap "
           data-aos="fade-up"
@@ -30,9 +30,9 @@ function PerksNBenefits() {
                 <div className="border-4 border-green text-white rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
                   <FaEnvelope className="text-4xl xl:text-6xl text-green" />
                 </div>
-                <h1 className="text-center w-4/5 text-xl">
+                <h3 className="text-center w-4/5 text-xl">
                   Professional Environment
-                </h1>
+                </h3>
               </div>
               <div className="card-back flex flex-col items-center justify-center gap-4 p-4 bg-green text-white rounded-lg">
                 <p className="text-center">
@@ -48,9 +48,9 @@ function PerksNBenefits() {
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
                   <FaMoneyBillWave className="text-4xl xl:text-6xl text-green" />
                 </div>
-                <h1 className="text-center w-4/5 text-xl">
+                <h3 className="text-center w-4/5 text-xl">
                   Competitive pay and job security
-                </h1>
+                </h3>
               </div>
               <div className="card-back flex flex-col items-center justify-center gap-4 p-4 bg-green text-white rounded-lg">
                 <p className="text-center">
@@ -66,9 +66,9 @@ function PerksNBenefits() {
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
                   <FaArrowRight className="text-4xl xl:text-6xl text-green" />
                 </div>
-                <h1 className="text-center w-4/5 text-xl">
+                <h3 className="text-center w-4/5 text-xl">
                   Flexible WFH options
-                </h1>
+                </h3>
               </div>
               <div className="card-back flex flex-col items-center justify-center gap-4 p-4 bg-green text-white rounded-lg">
                 <p className="text-center">
@@ -84,9 +84,9 @@ function PerksNBenefits() {
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
                   <FaChartLine className="text-4xl xl:text-6xl text-green" />
                 </div>
-                <h1 className="text-center w-4/5 text-xl">
+                <h3 className="text-center w-4/5 text-xl">
                   Performance appraisals and incentives
-                </h1>
+                </h3>
               </div>
               <div className="card-back flex flex-col items-center justify-center gap-4 p-4 bg-green text-white rounded-lg">
                 <p className="text-center">
@@ -102,9 +102,9 @@ function PerksNBenefits() {
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
                   <FaChartBar className="text-4xl xl:text-6xl text-green" />
                 </div>
-                <h1 className="text-center w-4/5 text-xl">
+                <h3 className="text-center w-4/5 text-xl">
                   Career Growth opportunities
-                </h1>
+                </h3>
               </div>
               <div className="card-back flex flex-col items-center justify-center gap-4 p-4 bg-green text-white rounded-lg">
                 <p className="text-center">

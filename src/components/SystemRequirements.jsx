@@ -13,9 +13,9 @@ import {
 function SystemRequirements() {
   return (
     <section className="flex justify-center items-center flex-col pb-20">
-      <h1 className="font-playfair font-extrabold text-6xl py-10 text-green text-center tracking-tight leading-none">
+      <h2 className="font-playfair font-extrabold text-6xl py-10 text-green text-center tracking-tight leading-none">
         System Requirements
-      </h1>
+      </h2>
       <div className="container w-3/5 grid py-10 text-sm 2xl:text-base gap-2 grid-cols-2 ">
         <div
           className="p-10  flex flex-col justify-center items-center hover:bg-green group hover:text-white text-black rounded-2xl border-4 border-green "
@@ -26,9 +26,9 @@ function SystemRequirements() {
             <FaWindows className="text-6xl text-green group-hover:text-white" />
           </div>
 
-          <h1 className="font-extrabold flex items-center font-playfair font-extrabold text-2xl mb-10 ">
+          <h2 className="font-extrabold flex items-center font-playfair font-extrabold text-2xl mb-10 ">
             WINDOWS
-          </h1>
+          </h2>
           <ul className="space-y-4 text-base text">
             <li className="flex items-center">
               <FaWindows className="mr-2 text-green group-hover:text-white" />{" "}
@@ -77,9 +77,9 @@ function SystemRequirements() {
           <div className=" flex justify-center items-center w-fit p-5">
             <FaApple className="text-6xl text-green group-hover:text-white" />
           </div>
-          <h1 className="font-extrabold flex items-center justify-center font-playfair font-extrabold text-2xl mb-10">
+          <h2 className="font-extrabold flex items-center justify-center font-playfair font-extrabold text-2xl mb-10">
             MAC
-          </h1>
+          </h2>
 
           <ul className="space-y-4 font-roboto text-base">
             <li className="flex items-center">

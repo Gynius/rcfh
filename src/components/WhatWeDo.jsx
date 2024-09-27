@@ -8,12 +8,12 @@ function WhatWeDo() {
       {/* Text Column */}
       <div className="md:w-1/2 p-4 flex items-center justify-center">
         <div>
-          <h1 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5">
+          <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5">
             What We Do
-          </h1>
-          <h2 className="font-robotoCondensed text-2xl text-green mb-4">
-            Your Partner in Growth and Success
           </h2>
+          <h3 className="font-robotoCondensed text-2xl text-green mb-4">
+            Your Partner in Growth and Success
+          </h3>
           <p className="text-gray-500 font-roboto text-base">
             RCFH started as a leading provider of Virtual Assistants (VA)
             services. Founded in 2022, we’ve made it our mission to help

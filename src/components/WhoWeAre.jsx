@@ -10,12 +10,12 @@ function WhoWeAre() {
   }, []);
   return (
     <div className="w-full h-auto items-center justify-center flex flex-col md:flex-col py-10">
-      <h1 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5 text-right">
+      <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5 text-right">
         Who We Are
-      </h1>
-      <h2 className="font-robotoCondensed text-2xl mb-10 text-green">
-        RCFH is your trusted Business Partner
       </h2>
+      <h3 className="font-robotoCondensed text-2xl mb-10 text-green">
+        RCFH is your trusted Business Partner
+      </h3>
       <div className="w-4/5 2xl:w-3/5 grid gap-4 lg:grid-cols-4 md:grid-cols-2 align-center py-10">
         {items.map((item, index) => {
           return (
@@ -27,7 +27,7 @@ function WhoWeAre() {
               data-aos-once="true"
             >
               {item.svg("80px", "80px")}
-              <h3 className="text-lg font-semibold my-5">{item.title}</h3>
+              <h4 className="text-lg font-semibold my-5">{item.title}</h4>
               <p className="font-normal text-gray-500 text-base">
                 {item.description}
               </p>
