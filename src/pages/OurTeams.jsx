@@ -3,10 +3,18 @@ import MainTemplate from "../components/MainTemplate";
 import Team from "../components/Team";
 import VASpotlight from "../components/VASpotlight";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 function OurTeams() {
   return (
     <MainTemplate>
+      <Helmet>
+        <title>RFCH | Teams</title>
+        <meta
+          name="description"
+          content="Empower your team with our Virtual Assistant services. Enhance collaboration and efficiency to achieve your business goals."
+        />
+      </Helmet>
+
       <div className="page-title text-white flex items-center justify-center bg-white arc-bottom z-10">
         <div className="container relative flex flex-col justify-center items-center z-10">
           <h1 className="font-playfair mb-4 font-extrabold tracking-tight leading-none text-6xl text-white py-5">

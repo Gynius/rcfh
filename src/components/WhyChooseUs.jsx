@@ -22,7 +22,7 @@ function WhatWeDo() {
       {/* Text Column */}
       <div className="md:w-1/2 p-4 flex items-center justify-center text-right">
         <div>
-          <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5">
+          <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-4xl lg:text-6xl text-green py-5">
             Why Choose Us
           </h2>
           <h3 className="font-robotoCondensed text-2xl text-green mb-4">

@@ -9,10 +9,10 @@ function OurServices() {
   return (
     <MainTemplate>
       <Helmet>
-        <title>RFCH | Virtual Assistant Services</title>
+        <title>RFCH | Services</title>
         <meta
           name="description"
-          content="Virtual Assistant Services for your business. Hire a VA Ninja to help you with your business tasks."
+          content="Explore our comprehensive Virtual Assistant services tailored to streamline your business operations and maximize efficiency."
         />
       </Helmet>
 

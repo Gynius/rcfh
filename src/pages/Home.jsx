@@ -10,12 +10,13 @@ function Home() {
   return (
     <MainTemplate>
       <Helmet>
-        <title>RFCH | Virtual Assistant Services</title>
+        <title>RFCH | VA Agency</title>
         <meta
           name="description"
-          content="Virtual Assistant Services for your business. Hire a VA Ninja to help you with your business tasks."
+          content="Discover top-notch Virtual Assistant services at our VA agency, designed to elevate your business efficiency and support your goals."
         />
       </Helmet>
+
       <Hero />
       <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 my-12">
         <span className="font-semibold text-gray-400 uppercase">

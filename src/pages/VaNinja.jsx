@@ -6,9 +6,17 @@ import SubscribeForm from "../components/SubscribeForm";
 
 import PerksNBenefits from "../components/PerksNBenefits";
 import SystemRequirements from "../components/SystemRequirements";
+import { Helmet } from "react-helmet";
 function VaNinja() {
   return (
     <MainTemplate>
+      <Helmet>
+        <title> RFCH | VA Ninja </title>
+        <meta
+          name="description"
+          content="Streamline your operations with our professional Virtual Assistant services, designed to support your business needs and boost productivity."
+        />
+      </Helmet>
       <NinjaHeader />
 
       <VaNinjaLoop />

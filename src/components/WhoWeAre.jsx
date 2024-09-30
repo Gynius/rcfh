@@ -10,7 +10,7 @@ function WhoWeAre() {
   }, []);
   return (
     <div className="w-full h-auto items-center justify-center flex flex-col md:flex-col py-10">
-      <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-6xl text-green py-5 text-right">
+      <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-4xl lg:text-6xl text-green py-5 text-right">
         Who We Are
       </h2>
       <h3 className="font-robotoCondensed text-2xl mb-10 text-green">

@@ -15,7 +15,7 @@ function CTA_services() {
           <div className="md:w-3/4">
             <h2
               className="font-playfair text-center text-white font-extrabold
-              text-5xl py-8"
+              text-4xl lg:text-5xl py-8"
             >
               Start your Journey With Us
             </h2>

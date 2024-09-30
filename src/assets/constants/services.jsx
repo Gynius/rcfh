@@ -5,7 +5,7 @@ import { BsFillPeopleFill } from "react-icons/bs"; // Bootstrap Icons
 export const services = [
   {
     svg: <FaBolt />,
-    image: "/images/services/asistant.jpg",
+    image: "/images/services/assistant.jpg",
     title: "VA services",
     description:
       "Streamline your operations and reclaim valuable time with our Virtual Assistant Services. Our dedicated team of virtual assistants is adept at handling administrative tasks, managing schedules, and executing a wide range of operational responsibilities. Focus on what matters most while we handle the rest.",

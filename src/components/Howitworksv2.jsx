@@ -14,7 +14,7 @@ function HowItWorks() {
       className="how-it-works flex justify-center items-center border py-20"
     >
       <div className="w-4/5 2xl:w-3/5 container my-8 flex flex-col md:flex-row gap-10 md:gap-40 ">
-        <h1 className="font-playfair font-bold text-green mb-4 font-extrabold tracking-tight leading-none text-6xl text-green py-5 text-center w-3/10">
+        <h1 className="font-playfair font-bold text-green mb-4 font-extrabold tracking-tight leading-none text-4xl lg:text-6xl   text-green py-5 text-center w-3/10">
           How it Works
         </h1>
         <div className="grid grid-cols-2 gap-4 justify-center items-stretch w-7/10">

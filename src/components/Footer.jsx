@@ -29,7 +29,7 @@ function Footer() {
             <a className="flex items-center">
               <Link to="/" className="flex">
                 <img
-                  src="https://static.wixstatic.com/media/368cfa_281c9844ac5a4fd0b0b3c605c91c63c6~mv2.png/v1/fill/w_150,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WS_GraphicsLogoA.png"
+                  src="/images/rcfh_logo.svg"
                   className="h-8 me-3"
                   alt="rcfh"
                 />

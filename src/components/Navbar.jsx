@@ -14,11 +14,7 @@ const Nav = () => {
     <nav className="sticky top-0 bg-white border-gray-200 shadow-md :bg-gray-900 :border-gray-700 border-b z-50">
       <div className="flex flex-wrap items-center justify-between mx-auto p-4 2xl:w-3/5 w-4/5">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img
-            src="https://static.wixstatic.com/media/368cfa_281c9844ac5a4fd0b0b3c605c91c63c6~mv2.png/v1/fill/w_150,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WS_GraphicsLogoA.png"
-            className="h-8"
-            alt="logo"
-          />
+          <img src="/images/rcfh_logo.svg" className="h-8" alt="logo" />
           <span className="font-playfair self-center text-2xl font-semibold whitespace-nowrap :text-white">
             RCFH
           </span>

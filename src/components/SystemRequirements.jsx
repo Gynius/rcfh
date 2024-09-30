@@ -13,10 +13,10 @@ import {
 function SystemRequirements() {
   return (
     <section className="flex justify-center items-center flex-col pb-20">
-      <h2 className="font-playfair font-extrabold text-6xl py-10 text-green text-center tracking-tight leading-none">
+      <h2 className="font-playfair font-extrabold text-4xl lg:text-6xl py-10 text-green text-center tracking-tight leading-none">
         System Requirements
       </h2>
-      <div className="container w-3/5 grid py-10 text-sm 2xl:text-base gap-2 grid-cols-2 ">
+      <div className="container w-3/5 grid py-10 text-sm 2xl:text-base gap-2 grid-cols-1 lg:grid-cols-2 ">
         <div
           className="p-10  flex flex-col justify-center items-center hover:bg-green group hover:text-white text-black rounded-2xl border-4 border-green "
           data-aos="fade-right"
@@ -26,7 +26,7 @@ function SystemRequirements() {
             <FaWindows className="text-6xl text-green group-hover:text-white" />
           </div>
 
-          <h2 className="font-extrabold flex items-center font-playfair font-extrabold text-2xl mb-10 ">
+          <h2 className="font-extrabold flex items-center font-playfair font-extrabold text-xl lg:text-2xl mb-10 ">
             WINDOWS
           </h2>
           <ul className="space-y-4 text-base text">
@@ -77,7 +77,7 @@ function SystemRequirements() {
           <div className=" flex justify-center items-center w-fit p-5">
             <FaApple className="text-6xl text-green group-hover:text-white" />
           </div>
-          <h2 className="font-extrabold flex items-center justify-center font-playfair font-extrabold text-2xl mb-10">
+          <h2 className="font-extrabold flex items-center justify-center text-xl lg:text-2xl font-playfair font-extrabold text-2xl mb-10">
             MAC
           </h2>
 

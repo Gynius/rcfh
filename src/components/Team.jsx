@@ -13,7 +13,7 @@ function Team() {
       className="team section flex align-center justify-center py-16"
     >
       <div className="2xl:w-3/5 w-4/5 container">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
           <div
             className="member"
             data-aos="fade-up"
@@ -23,8 +23,7 @@ function Team() {
             <div className="member-img">
               <img
                 src="/images/team/jess-op.png"
-                className="w-full object-cover"
-                style={{ height: "20rem" }}
+                className="w-full object-cover aspect-square"
                 alt="Team Member 1"
               />
               <div className="social">
@@ -61,8 +60,7 @@ function Team() {
             <div className="member-img">
               <img
                 src="/images/team/logan.jpg"
-                className="w-full object-cover"
-                style={{ height: "20rem" }}
+                className="w-full object-cover aspect-square"
                 alt="Team Member 1"
               />
               <div className="social">
@@ -98,9 +96,8 @@ function Team() {
           >
             <div className="member-img">
               <img
-                src="/images/team/team-6.jpg"
-                className="w-full h-64 object-cover"
-                style={{ height: "20rem" }}
+                src="/images/team/mel.jpg"
+                className="w-full object-cover aspect-square"
                 alt="Team Member 3"
               />
               <div className="social">
@@ -137,8 +134,7 @@ function Team() {
             <div className="member-img">
               <img
                 src="/images/team/team-4.jpg"
-                className="w-full object-cover"
-                style={{ height: "20rem" }}
+                className="w-full object-cover aspect-square"
                 alt="Team Member 4"
               />
               <div className="social">
@@ -162,82 +158,6 @@ function Team() {
               <p>
                 Magni voluptatem accusamus assumenda cum nisi aut qui dolorem
                 voluptate sed et veniam quasi quam consectetur
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="member"
-            data-aos="fade-up"
-            data-aos-delay="500"
-            data-aos-once="true"
-          >
-            <div className="member-img">
-              <img
-                src="/images/team/team-5.jpg"
-                className="w-full object-cover"
-                style={{ height: "20rem" }}
-                alt="Team Member 5"
-              />
-              <div className="social">
-                <a href="#">
-                  <i className="bi bi-twitter-x"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-facebook"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-instagram"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-linkedin"></i>
-                </a>
-              </div>
-            </div>
-            <div className="member-info text-center">
-              <h4>Someone Else</h4>
-              <span>Another Role</span>
-              <p>
-                Qui consequuntur quos accusamus magnam quo est molestiae eius
-                laboriosam sunt doloribus quia impedit laborum velit
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="member"
-            data-aos="fade-up"
-            data-aos-delay="600"
-            data-aos-once="true"
-          >
-            <div className="member-img">
-              <img
-                src="/images/team/team-6.jpg"
-                className="w-full object-cover"
-                style={{ height: "20rem" }}
-                alt="Team Member 6"
-              />
-              <div className="social">
-                <a href="#">
-                  <i className="bi bi-twitter-x"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-facebook"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-instagram"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-linkedin"></i>
-                </a>
-              </div>
-            </div>
-            <div className="member-info text-center">
-              <h4>Another Person</h4>
-              <span>Different Role</span>
-              <p>
-                Sint sint eveniet explicabo amet consequatur nesciunt error enim
-                rerum earum et omnis fugit eligendi cupiditate vel
               </p>
             </div>
           </div>

@@ -14,17 +14,17 @@ AOS.init();
 
 function PerksNBenefits() {
   return (
-    <>
-      <section className=" py-10 flex flex-col justify-center items-center gap-2 ">
-        <h2 className="text-center font-playfair text-6xl font-extrabold tracking-tight leading-none text-green py-10 bo">
+    <section className="">
+      <div className=" py-10 flex flex-col justify-center items-center gap-2">
+        <h2 className="text-center font-playfair text-4xl lg:text-6xl font-extrabold tracking-tight leading-none text-green py-10">
           Perks and Benefits
         </h2>
         <div
-          className="container py-10 w-full flex justify-evenly gap-6 flex-wrap "
+          className="container py-10 w-full flex gap-y-4 lg:gap-x-2 justify-center flex-wrap"
           data-aos="fade-up"
           data-aos-once="true"
         >
-          <div className="card-container xl:w-1/6 xs_s:w-1/3">
+          <div className="card-container xl:w-1/6 xs_s:w-1/2">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green text-white rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -42,7 +42,7 @@ function PerksNBenefits() {
             </div>
           </div>
 
-          <div className="card-container xl:w-1/6 xs_s:w-1/3">
+          <div className="card-container xl:w-1/6 xs_s:w-1/2">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -60,7 +60,7 @@ function PerksNBenefits() {
             </div>
           </div>
 
-          <div className="card-container xl:w-1/6 xs_s:w-1/3">
+          <div className="card-container xl:w-1/6 xs_s:w-1/2">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -78,7 +78,7 @@ function PerksNBenefits() {
             </div>
           </div>
 
-          <div className="card-container xl:w-1/6 xs_s:w-1/3">
+          <div className="card-container xl:w-1/6 xs_s:w-1/2">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -96,7 +96,7 @@ function PerksNBenefits() {
             </div>
           </div>
 
-          <div className="card-container xl:w-1/6 xs_s:w-1/3">
+          <div className="card-container xl:w-1/6 xs_s:w-1/2">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -114,8 +114,8 @@ function PerksNBenefits() {
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
 
