@@ -4,9 +4,18 @@ import HowItWorks from "../components/Howitworksv2";
 
 import Booking from "../components/Booking";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 function OurServices() {
   return (
     <MainTemplate>
+      <Helmet>
+        <title>RFCH | Virtual Assistant Services</title>
+        <meta
+          name="description"
+          content="Virtual Assistant Services for your business. Hire a VA Ninja to help you with your business tasks."
+        />
+      </Helmet>
+
       <div className="page-title text-white flex items-center justify-center bg-white arc-bottom z-10">
         <div class="container relative flex flex-col justify-center items-center z-10">
           <h1 className="font-playfair mb-4 font-extrabold tracking-tight leading-none text-6xl text-white py-5">

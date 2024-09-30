@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
+  const location = useLocation();
 
   // Function to toggle the menu visibility
   const handleToggle = () => {
@@ -10,7 +11,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="sticky top-0 bg-white border-gray-200 shadow-md :bg-gray-900 :border-gray-700 border-b z-50  ">
+    <nav className="sticky top-0 bg-white border-gray-200 shadow-md :bg-gray-900 :border-gray-700 border-b z-50">
       <div className="flex flex-wrap items-center justify-between mx-auto p-4 2xl:w-3/5 w-4/5">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
@@ -56,7 +57,11 @@ const Nav = () => {
             <li className="text-center flex items-center hover:text-green">
               <Link
                 to="/"
-                className="border-b-2 border-transparent hover:border-green"
+                className={`border-b-2 ${
+                  location.pathname === "/"
+                    ? "border-green"
+                    : "border-transparent"
+                } hover:border-green`}
               >
                 Home
               </Link>
@@ -64,7 +69,11 @@ const Nav = () => {
             <li className="text-center flex items-center group hover:text-green">
               <Link
                 to="/teams"
-                className="border-b-2 border-transparent hover:border-green"
+                className={`border-b-2 ${
+                  location.pathname === "/teams"
+                    ? "border-green"
+                    : "border-transparent"
+                } hover:border-green`}
               >
                 Our Teams
               </Link>
@@ -72,7 +81,11 @@ const Nav = () => {
             <li className="text-center flex items-center hover:text-green">
               <Link
                 to="/services"
-                className="border-b-2 border-transparent hover:border-green"
+                className={`border-b-2 ${
+                  location.pathname === "/services"
+                    ? "border-green"
+                    : "border-transparent"
+                } hover:border-green`}
               >
                 Our Services
               </Link>
@@ -80,14 +93,18 @@ const Nav = () => {
             <li className="text-center flex items-center hover:text-green">
               <Link
                 to="/va-ninja"
-                className="border-b-2 border-transparent hover:border-green"
+                className={`border-b-2 ${
+                  location.pathname === "/va-ninja"
+                    ? "border-green"
+                    : "border-transparent"
+                } hover:border-green`}
               >
                 Become a VA Ninja
               </Link>
             </li>
             <li className="text-center flex items-center hover:text-green hidden md:flex">
               <a href="https://calendly.com/kathy-rcfhagency/60min">
-                <button className="border rounded-full px-5 py-3  bg-red text-white shadow">
+                <button className="border rounded-full px-5 py-3 bg-red text-white shadow">
                   Book A Call
                 </button>
               </a>

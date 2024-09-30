@@ -5,9 +5,17 @@ import WhoWeAre from "../components/WhoWeAre";
 import CTA_services from "../components/CTA_services";
 import WhyChooseUs from "../components/WhyChooseUs";
 import { FaFacebook, FaLinkedin, FaGoogle } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 function Home() {
   return (
     <MainTemplate>
+      <Helmet>
+        <title>RFCH | Virtual Assistant Services</title>
+        <meta
+          name="description"
+          content="Virtual Assistant Services for your business. Hire a VA Ninja to help you with your business tasks."
+        />
+      </Helmet>
       <Hero />
       <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 my-12">
         <span className="font-semibold text-gray-400 uppercase">
