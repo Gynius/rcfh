@@ -2,6 +2,7 @@ import JoinUs from "../components/JoinUs";
 import MainTemplate from "../components/MainTemplate";
 import Team from "../components/Team";
 import VASpotlight from "../components/VASpotlight";
+import VASpotlight2 from "../components/VASpotlight2";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 function OurTeams() {
@@ -41,6 +42,7 @@ function OurTeams() {
         </div>
       </div>
       <VASpotlight />
+      <VASpotlight2 />
       <Team />
       <JoinUs />
     </MainTemplate>

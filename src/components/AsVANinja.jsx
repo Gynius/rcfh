@@ -9,7 +9,7 @@ function AsVANinja() {
             What does it mean to reach the Ninja level of Virtual Assistance?
           </h1>
         </div>
-        <div className=" text-white xl:w-1/2 2xl:pl-10  xl:border-l-4 py-10 text-justify ">
+        <div className=" text-white xl:w-1/2 2xl:pl-10 lg:pl-10 xl:border-l-4 py-10 text-justify ">
           <p className="text-sm">
             At RCFH, we take pride in our Virtual Assistant Ninjas — the unseen
             and unheard masters of efficiency. As a Virtual Assistant Ninja, you

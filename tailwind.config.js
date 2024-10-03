@@ -15,12 +15,12 @@ module.exports = {
         soft_red: '#FF736F',
         custom_bg: '#FBFCFD',
         g:"#e8f9f1"
-
-        
       },
+      
       backgroundImage: {
         hero_bg: "url('/images/hero-bg.png')", 
         join_us_bg: "url('/images/join-us-bg.jpg')",
+        va_bg: "url('/images/va-bg.png')",
       },
       fontSize: {
         xs_sm: '0.8rem', 
