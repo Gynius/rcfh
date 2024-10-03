@@ -198,12 +198,12 @@ function VASpotlight() {
         {itemsToShow.map((spotlight, index) => (
           <div
             key={index}
-            className="w-3/4 center w-full shadow-2xl flex flex-col lg:flex-row p-10 text-black bg-hero_bg bg-cover bg-right"
+            className="w-3/4 center w-full shadow-2xl flex flex-col lg:flex-row p-10 text-black bg-hero_bg bg-cover bg-right justify-center items-center"
           >
             <img
               src={spotlight.image}
               alt={spotlight.name}
-              className="h-auto object-cover rounded-full aspect-square w-1/3 border-8 border-green"
+              className="h-auto object-cover rounded-full aspect-square w-1/3 border-8 border-green align-middle"
             />
             <div className="right text-left">
               <h3 className="font-playfair font-extrabold text-center text-2xl">
