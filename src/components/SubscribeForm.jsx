@@ -5,11 +5,11 @@ function SubscribeForm() {
   return (
     <section className="flex justify-center " id="subscribe-form">
       <div
-        className="subscribe-form border flex border bg-cover bg-bottom overflow-hidden  z-10 relative rounded-lg w-4/5"
+        className="subscribe-form border flex border bg-va_bg bg-cover bg-bottom overflow-hidden  z-10 relative rounded-lg w-4/5"
         data-aos="fade-left"
       >
         <div className="form-image w-1/3 h-full flex items-base justify-end p-10 z-20 hidden 2xl:flex">
-          <FaSync size={200} className="text-green_dark" />
+          <FaSync size={200} className="text-white" />
         </div>
         <div className="form-area w-full p-10 px-20 flex flex-col gap-2 z-20">
           <h2 className="font-roboto font-extrabold text-4xl text-white ">

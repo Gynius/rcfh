@@ -92,25 +92,25 @@ function VASpotlight() {
       description: (
         <ul>
           <li>
-            <b className="text-white">Effective Communication </b>: I can convey
+            <b className="text-black">Effective Communication </b>: I can convey
             messages clearly and professionally, ensuring the recipient
             understands the information.
           </li>
           <li>
-            <b className="text-white">Time Management</b>: I prioritize tasks
+            <b className="text-black">Time Management</b>: I prioritize tasks
             efficiently to meet deadlines and ensure timely follow-ups.
           </li>
           <li>
-            <b className="text-white">Personalization</b>: I tailor messages to
+            <b className="text-black">Personalization</b>: I tailor messages to
             suit the recipient's needs and preferences, fostering a better
             connection.
           </li>
           <li>
-            <b className="text-white">Problem-Solving</b>: I quickly identify
+            <b className="text-black">Problem-Solving</b>: I quickly identify
             and address any issues that arise in the messaging process.
           </li>
           <li>
-            <b className="text-white">Adaptability</b>: I adjust my approach
+            <b className="text-black">Adaptability</b>: I adjust my approach
             based on feedback and changes in the workflow. These strengths
             enable me to support outreach efforts effectively and maintain
             positive relationships with clients or customers.
@@ -125,37 +125,37 @@ function VASpotlight() {
       description: (
         <ul className="flex flex-col gap-1">
           <li>
-            <b className="text-white">Comprehensive Business Support</b> -
+            <b className="text-black">Comprehensive Business Support</b> -
             Handling a wide range of tasks, including managing documentation,
             emails, scheduling, and overall administrative support
           </li>
           <li>
-            <b className="text-white">Social Media Management </b>- Creating,
+            <b className="text-black">Social Media Management </b>- Creating,
             scheduling, and managing social media content to boost engagement
             and grow following
           </li>
           <li>
-            <b className="text-white">Website Management & Creation</b> -
+            <b className="text-black">Website Management & Creation</b> -
             Website creation and management, ensuring seamless updates, and
             user-friendly experiences
           </li>
           <li>
-            <b className="text-white">Customer Service Excellence</b> - Ability
+            <b className="text-black">Customer Service Excellence</b> - Ability
             to manage customer interactions, provide support, and resolve
             inquiries to ensure positive customer experience
           </li>
           <li>
-            <b className="text-white">Organization & Time Management</b> -
+            <b className="text-black">Organization & Time Management</b> -
             Highly organized, with a focus on prioritization, multitasking, and
             managing tight deadlines
           </li>
           <li>
-            <b className="text-white">Tech-Savvy & Adaptable</b> - Comfortable
+            <b className="text-black">Tech-Savvy & Adaptable</b> - Comfortable
             with various tools and platforms, from email and content management
             systems to project management software and communication tools
           </li>
           <li>
-            <b className="text-white">Problem-Solving & Initiative</b>: Capable
+            <b className="text-black">Problem-Solving & Initiative</b>: Capable
             of identifying challenges and implementing solutions quickly, with
             proactive attitude towards tasks and responsibilities
           </li>
@@ -190,7 +190,7 @@ function VASpotlight() {
   ];
 
   return (
-    <section className="spotlight-container flex flex-col w-full justify-center items-center relative py-20">
+    <section className="spotlight-container flex flex-col w-full justify-center items-center relative py-20 h-full bg-cover">
       <h2 className="w-4/5 text-center text-4xl lg:text-6xl font-playfair mb-4 font-extrabold tracking-tight leading-none text-green mb-10">
         VA Spotlights
       </h2>
@@ -198,12 +198,12 @@ function VASpotlight() {
         {itemsToShow.map((spotlight, index) => (
           <div
             key={index}
-            className="w-5/6 center w-full bg-va_bg border flex p-10 text-white"
+            className="w-3/4 center w-full shadow-2xl flex flex-col lg:flex-row p-10 text-black bg-hero_bg bg-cover bg-right"
           >
             <img
               src={spotlight.image}
               alt={spotlight.name}
-              className="h-auto object-cover rounded-full aspect-square w-1/3 border-8 border-red"
+              className="h-auto object-cover rounded-full aspect-square w-1/3 border-8 border-green"
             />
             <div className="right text-left">
               <h3 className="font-playfair font-extrabold text-center text-2xl">
@@ -212,17 +212,17 @@ function VASpotlight() {
               <h4 className="font-robotoCondensed text-sm text-center pb-2 text-gray-500">
                 {spotlight.title}
               </h4>
-              <div className="font-roboto px-10 text-sm text-gray-400 text-justify">
+              <div className="font-roboto px-10 text-sm text-gray-600 text-justify">
                 {spotlight.description}
               </div>
             </div>
           </div>
         ))}
       </div>
-      <button className="carousel-button prev text-red" onClick={handlePrev}>
+      <button className="carousel-button prev text-green" onClick={handlePrev}>
         <FaChevronLeft />
       </button>
-      <button className="carousel-button next text-red" onClick={handleNext}>
+      <button className="carousel-button next text-green" onClick={handleNext}>
         <FaChevronRight />
       </button>
     </section>

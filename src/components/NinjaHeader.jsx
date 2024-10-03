@@ -1,12 +1,17 @@
 import React from "react";
 import AsVANinja from "../components/AsVANinja";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function NinjaHeader() {
   return (
     <div className="text-white flex items-center justify-center bg-white z-10 ninja-header arc-bottom relative va-ninja flex-col ">
       <div className="container relative flex flex-row z-10 text-white w-4/5 gap-5">
         <div className="text-area m-0 flex flex-col align-left z-5 w-full pt-20">
-          <h1 className="font-playfair mb-4 font-extrabold tracking-tight leading-none text-6xl text-white py-5 text-center ">
+          <h1
+            className="font-playfair mb-4 font-extrabold tracking-tight leading-none text-6xl text-white py-5 text-center "
+            data-aos="fade-down"
+          >
             Become a VA Ninja
           </h1>
           {/* <h2 className="text-gray-300 mb-5 text-left text-base text-center w-full 2xl:text-left 2xl:w-2/3">

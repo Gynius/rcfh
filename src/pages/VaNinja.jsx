@@ -3,10 +3,10 @@ import NinjaHeader from "../components/NinjaHeader";
 import MainTemplate from "../components/MainTemplate";
 import VaNinjaLoop from "../components/VaNinjaLoop";
 import SubscribeForm from "../components/SubscribeForm";
-
 import PerksNBenefits from "../components/PerksNBenefits";
 import SystemRequirements from "../components/SystemRequirements";
 import { Helmet } from "react-helmet";
+
 function VaNinja() {
   return (
     <MainTemplate>
