@@ -11,7 +11,7 @@ function VaNinja() {
   return (
     <MainTemplate>
       <Helmet>
-        <title> RFCH | VA Ninja 2 </title>
+        <title> RFCH | VA Ninja </title>
         <meta
           name="description"
           content="Streamline your operations with our professional Virtual Assistant services, designed to support your business needs and boost productivity."
