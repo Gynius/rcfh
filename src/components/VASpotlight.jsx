@@ -64,8 +64,8 @@ function VASpotlight() {
 
   return (
     <section className="spotlight-container flex flex-col w-full justify-center items-center relative py-20">
-      <h2 className="w-4/5 text-center text-4xl lg:text-6xl font-playfair mb-4  font-extrabold tracking-tight leading-none text-green mb-10">
-        VA Spotlights
+      <h2 className="w-4/5 text-center text-4xl lg:text-6xl font-playfair mb-4 font-extrabold tracking-tight leading-none text-green mb-10">
+        VA Spotlight
       </h2>
       <div className="carousel  w-4/5 flex relative my-20 justify-center ">
         {itemsToShow.map((spotlight, index) => (

@@ -21,7 +21,7 @@
   transform: translateX(-50%) rotate(180deg); /* Center horizontally and rotate 180 degrees */
   width: 200%;  
   height: 100%;
-  background-color: rgba(20, 72, 53, .9); /* Semi-transparent overlay */
+  background-color: rgba(20, 72, 53, .85); /* Semi-transparent overlay */
   z-index: 1; /* Ensure it’s on top of the red background but behind other content */
   clip-path: ellipse(80% 100% at 50% 100%);
 }
@@ -76,15 +76,14 @@
   left: 50%;
   top: 0;
   transform: translateX(-50%); /* Center horizontally */
-  width:100%;
+  width: 200%;
   height: 100%;
-  background-image: url('/images/hero-bg.png');
-  z-index: 2;
+  background-image: url('/images/ninja2.jpg');
+  background-position: 10% 10%; /* Custom position */
   background-size: cover;
-  background-position: bottom;
   background-repeat: no-repeat;
   z-index: -1; /* Ensure it’s behind other content */
-  clip-path: ellipse(80% 100% at 50% 0%); /* Curve at the bottom */
+  clip-path: ellipse(40% 100% at 50% 0%); /* Curve at the bottom */
 }
 
 
@@ -97,11 +96,10 @@
   transform: translateX(-50%) rotate(180deg); /* Center horizontally and rotate 180 degrees */
   width: 200%;
   height: 100%;
-  background-color: #0b221a;
-  z-index: -1; /* Ensure it’s on top of the red background but behind other content */
-  clip-path: ellipse(80% 100% at 50% 100%);
+  background-color: rgba(20, 72, 53, .4); /* Semi-transparent overlay */
+  z-index: 1; /* Ensure it’s on top of the red background but behind other content */
+  clip-path: ellipse(40% 100% at 50% 100%);
 }
-
 
 
 

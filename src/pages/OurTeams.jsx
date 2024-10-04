@@ -3,6 +3,7 @@ import MainTemplate from "../components/MainTemplate";
 import Team from "../components/Team";
 import VASpotlight from "../components/VASpotlight";
 import VASpotlight2 from "../components/VASpotlight2";
+import Rcfh from "../components/rcfh";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import AOS from "aos";
@@ -50,7 +51,7 @@ function OurTeams() {
           </nav>
         </div>
       </div>
-
+      <Rcfh />
       <VASpotlight2 />
       <Team />
       <JoinUs />

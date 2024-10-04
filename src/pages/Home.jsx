@@ -3,6 +3,7 @@ import MainTemplate from "../components/MainTemplate";
 import WhatWeDo from "../components/WhatWeDo";
 import WhoWeAre from "../components/WhoWeAre";
 import CTA_services from "../components/CTA_services";
+import SubscribeForm from "../components/SubscribeForm";
 import WhyChooseUs from "../components/WhyChooseUs";
 import { FaFacebook, FaLinkedin, FaGoogle } from "react-icons/fa";
 import { Helmet } from "react-helmet";
@@ -46,6 +47,7 @@ function Home() {
       <WhatWeDo />
       <WhoWeAre />
       <WhyChooseUs />
+      <SubscribeForm />
       <CTA_services />
     </MainTemplate>
   );

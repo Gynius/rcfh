@@ -12,17 +12,17 @@ import {
 } from "react-icons/fa";
 function SystemRequirements() {
   return (
-    <section className="flex justify-center items-center flex-col pb-20">
-      <h2 className="font-playfair font-extrabold text-4xl lg:text-6xl py-10 text-green text-center tracking-tight leading-none">
+    <section className="flex justify-center items-center flex-col pb-20 bg-gradient-to-b from-white to-green_light">
+      <h2 className="font-playfair font-extrabold text-4xl lg:text-6xl py-10 text-black text-center tracking-tight leading-none">
         System Requirements
       </h2>
       <div className="container w-4/5 2xl:w-3/5 grid py-10 text-sm 2xl:text-base gap-2 grid-cols-1 lg:grid-cols-2 ">
         <div
-          className="p-10  flex flex-col justify-center items-center hover:bg-green group hover:text-white text-black rounded-2xl border-4 border-green "
+          className="p-10  flex flex-col justify-center items-center hover:bg-green group hover:text-white text-black rounded-2xl border-4 border-green bg-white "
           data-aos="fade-right"
           data-aos-once="true"
         >
-          <div className="flex items-center w-fit p-5 ">
+          <div className="flex items-center w-fit p-5 bg-wh ">
             <FaWindows className="text-6xl text-green group-hover:text-white" />
           </div>
 
@@ -70,11 +70,11 @@ function SystemRequirements() {
           </ul>
         </div>
         <div
-          className=" p-10 flex flex-col items-center rounded-2xl hover:bg-green group hover:text-white border-4 border-green "
+          className=" p-10 flex flex-col items-center rounded-2xl hover:bg-green group hover:text-white border-4 border-green bg-white "
           data-aos="fade-left"
           data-aos-once="true"
         >
-          <div className=" flex justify-center items-center w-fit p-5">
+          <div className=" flex justify-center items-center w-fit p-5 e">
             <FaApple className="text-6xl text-green group-hover:text-white" />
           </div>
           <h2 className="font-extrabold flex items-center justify-center text-xl lg:text-2xl font-playfair font-extrabold text-2xl mb-10">

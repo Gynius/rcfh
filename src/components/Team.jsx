@@ -43,7 +43,6 @@ function Team() {
               <div className="member-info text-center">
                 <h4>{member.name}</h4>
                 <span>{member.title}</span>
-                <p>{member.description}</p>
               </div>
             </div>
           ))}

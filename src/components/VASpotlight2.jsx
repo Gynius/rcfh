@@ -190,29 +190,35 @@ function VASpotlight() {
   ];
 
   return (
-    <section className="spotlight-container flex flex-col w-full justify-center items-center relative py-20 h-full bg-cover">
-      <h2 className="w-4/5 text-center text-4xl lg:text-6xl font-playfair mb-4 font-extrabold tracking-tight leading-none text-green mb-10">
-        VA Spotlights
+    <section className="spotlight-container flex flex-col w-full justify-center items-center relative h-full bg-cover pt-10 pb-20">
+      <h2 className="w-4/5 text-left text-4xl lg:text-6xl font-roboto mb-4 font-extrabold tracking-tight leading-none text-green">
+        OUR TOP PERFORMER FOR THE MONTH
       </h2>
-      <div className=" w-7/12 flex relative my-20 justify-center">
+      <div className=" w-4/6 border flex relative justify-center my-20">
         {itemsToShow.map((spotlight, index) => (
           <div
             key={index}
-            className="w-3/4 center w-full shadow-2xl flex flex-col lg:flex-row p-10 text-white bg-va_bg bg-cover bg-right justify-center items-center"
+            className=" center w-full shadow-2xl flex flex-col lg:flex-row p-10 text-white bg-va_bg bg-cover bg-right justify-center items-center rounded-2xl"
           >
-            <img
-              src={spotlight.image}
-              alt={spotlight.name}
-              className="h-auto object-cover rounded-full aspect-square w-1/3 border-8 border-green align-middle"
-            />
-            <div className="right text-left">
+            <div className="left flex flex-col w-2/3 items-center justify-center gap-2  ">
+              <img
+                src={spotlight.image}
+                alt={spotlight.name}
+                className="h-72	 object-cover rounded-full aspect-square border-4 border-white align-middle"
+              />
               <h3 className="font-playfair font-extrabold text-center text-2xl">
                 {spotlight.name}
               </h3>
               <h4 className="font-robotoCondensed text-sm text-center pb-2 text-gray-300">
                 {spotlight.title}
               </h4>
-              <div className="font-roboto px-10 text-sm text-gray-300 text-justify">
+            </div>
+            <div className="right text-left h-auto ">
+              <h2 className="w-full text-center text-4xl lg:text-4xl font-playfair mb-4 font-extrabold tracking-tight leading-none  w-100 flex flex-col items-center gap-2">
+                VA Spotlight
+                <span className="w-20 border-2 border-green_dark"></span>
+              </h2>
+              <div className="font-roboto px-5 text-sm text-gray-300 ">
                 {spotlight.description}
               </div>
             </div>

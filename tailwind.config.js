@@ -21,6 +21,7 @@ module.exports = {
         hero_bg: "url('/images/hero-bg.png')", 
         join_us_bg: "url('/images/join-us-bg.jpg')",
         va_bg: "url('/images/va-bg.png')",
+        subform_bg: "url('/images/cta-bg.jpg')",
       },
       fontSize: {
         xs_sm: '0.8rem', 
