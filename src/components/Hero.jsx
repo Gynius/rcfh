@@ -61,7 +61,7 @@ function Hero() {
         >
           As an Entrepreneur, you have chosen to work FOR yourself…With RCFH in
           your business, you’ll ensure you’re not working BY
-          yourself!ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+          yourself!
         </p>
         <div
           className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
