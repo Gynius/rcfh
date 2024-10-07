@@ -147,7 +147,7 @@ const vaSpotlights = [
         </li>
         <li>
           <b className="text-white">Tech-Savvy & Adaptable</b> - Comfortable
-          with various tools and platforms, from email and content management
+          with various tools and platforms, from email and content maanagement
           systems to project management software and communication tools
         </li>
         <li>
