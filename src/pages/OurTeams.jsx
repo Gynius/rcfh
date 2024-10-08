@@ -52,7 +52,7 @@ function OurTeams() {
         </div>
       </div>
       <Rcfh />
-      <VASpotlight2 />
+      {/* <VASpotlight2 /> */}
       <Team />
       <JoinUs />
     </MainTemplate>
