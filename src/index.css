@@ -301,13 +301,13 @@ body{
 
 .prev {
   position: absolute;
-  left: 0%;
+  left: -13%;
 
 }
 
 .next {
   position: absolute;
-  right: 0%;
+  right: -13%;
 }
 
 

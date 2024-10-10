@@ -1,164 +1,93 @@
 const vaSpotlights = [
   {
-    image: "/images/team/jess-op.png",
-    name: "Jessica Taufmann",
-    title: "Outbound Services Director/Trainer",
+    image: "/images/team/marygil.jpg",
+    name: "Marygil",
+    title: "VA for 2 Years and 6 months",
+    position: "bottom",
     description: (
       <ul>
         <li>
-          Comprehensive Business Support - Handling a wide range of tasks,
-          including managing documentation, emails, scheduling, and overall
-          administrative support
+          Adaptability: I quickly adapt to new tasks and environments, viewing
+          change as an opportunity to learn new skills and grow.
+        </li>
+        <li>
+          Problem Solving: While not always, I sometimes offer solutions to my
+          team and clients when faced with complex tasks or challenges.
+        </li>
+        <li>
+          Teamwork: I collaborate effectively with my team, distributing tasks
+          and creating solutions that utilize each member's strengths.
+        </li>
+        <li>
+          Attention to Detail: I ensure accuracy by double-checking my work,
+          knowing that attention to detail is key to high-quality results.
+        </li>
+        <li>
+          Time Management & Organization: I multitask efficiently and stay
+          organized, ensuring that all client tasks are completed on time and
+          deadlines are met.
+        </li>
+        <li>
+          Creativity is one of my strengths, and I showcase it through photo
+          editing, designing, and video editing.
+        </li>
+        <li>
+          Tech Savviness: Learning new software can be challenging, but with
+          patience and baby steps, I adapt and master new tools, enhancing my
+          efficiency.
+        </li>
+        <li>
+          Customer Service: My background in customer service taught me strong
+          communication and client management skills, which I carry into my
+          current role.
+        </li>
+      </ul>
+    ),
+    clientFeedback:
+      "My name is Matt Vande Vegte and I've had the pleasure of working with Marygil as my lead VA for what feels like forever at this point, simply because I cannot imaging running our business without her. Her expertise and ability to adapt is unparalleled, exceeded only by her incredible dedication and work ethic. Marygil never ceases to amaze me with her ever-growing skill set, it seems that there's nothing she can't handle. Marygil has set the golden standard for excellence in the workplace and I'm blessed to have her on the team as we continue to push forward and help more people with the business. Thank you Marygil for all of your hard work, I couldn't do this without you!",
+  },
+  {
+    image: "/images/team/karren.jpg",
+    name: "Karren Fabie Nolledo",
+    title: "VA for 1 year and 10 months",
+    position: "top",
+    description: (
+      <ul>
+        <li>
+          Content Moderation - Ensuring that all content adheres to community
+          guidelines and standards.
         </li>
         <li>
           Social Media Management - Creating, scheduling, and managing social
-          media content to boost engagement and grow following
+          media posts to engage and grow the audience.
         </li>
         <li>
-          Website Management & Creation - Website creation and management,
-          ensuring seamless updates, and user-friendly experiences
+          Customer Service (Non-Voice) - Providing support and resolving
+          customer inquiries through chat and email.
         </li>
         <li>
-          Customer Service Excellence - Ability to manage customer interactions,
-          provide support, and resolve inquiries to ensure positive customer
-          experience
+          Prospecting - Identifying and reaching out to potential clients or
+          customers to generate leads.
         </li>
         <li>
-          Organization & Time Management - Highly organized, with a focus on
-          prioritization, multitasking, and managing tight deadlines
+          Attention to Detail - Carefully reviewing tasks and materials to
+          ensure accuracy and quality.
         </li>
         <li>
-          Tech-Savvy & Adaptable - Comfortable with various tools and platforms,
-          from email and content management systems to project management
-          software and communication tools
+          Time Management - Efficiently organizing and prioritizing tasks to
+          meet deadlines.
         </li>
         <li>
-          Problem-Solving & Initiative: Capable of identifying challenges and
-          implementing solutions quickly, with proactive attitude towards tasks
-          and responsibilities
+          Adaptability - Quickly adjusting to new tasks, tools, and
+          environments.
+        </li>
+        <li>
+          Discretion and Confidentiality - Handling sensitive information with
+          care and maintaining privacy.
         </li>
       </ul>
     ),
   },
-  {
-    image: "/images/team/logan.jpg",
-    name: "Logan Welch",
-    title: "VA Services Director/Trainer",
-    description: (
-      <ul>
-        <li>
-          Comprehensive Business Support - Handling a wide range of tasks,
-          including managing documentation, emails, scheduling, and overall
-          administrative support
-        </li>
-        <li>
-          Social Media Management - Creating, scheduling, and managing social
-          media content to boost engagement and grow following
-        </li>
-        <li>
-          Website Management & Creation - Website creation and management,
-          ensuring seamless updates, and user-friendly experiences
-        </li>
-        <li>
-          Customer Service Excellence - Ability to manage customer interactions,
-          provide support, and resolve inquiries to ensure positive customer
-          experience
-        </li>
-        <li>
-          Organization & Time Management - Highly organized, with a focus on
-          prioritization, multitasking, and managing tight deadlines
-        </li>
-        <li>
-          Tech-Savvy & Adaptable - Comfortable with various tools and platforms,
-          from email and content management systems to project management
-          software and communication tools
-        </li>
-        <li>
-          Problem-Solving & Initiative: Capable of identifying challenges and
-          implementing solutions quickly, with proactive attitude towards tasks
-          and responsibilities
-        </li>
-      </ul>
-    ),
-  },
-  {
-    image: "/images/team/team-3.jpg",
-    name: "Someone Else",
-    title: "Another Role",
-    description: (
-      <ul>
-        <li>
-          <b className="text-white">Effective Communication </b>: I can convey
-          messages clearly and professionally, ensuring the recipient
-          understands the information.
-        </li>
-        <li>
-          <b className="text-white">Time Management</b>: I prioritize tasks
-          efficiently to meet deadlines and ensure timely follow-ups.
-        </li>
-        <li>
-          <b className="text-white">Personalization</b>: I tailor messages to
-          suit the recipient's needs and preferences, fostering a better
-          connection.
-        </li>
-        <li>
-          <b className="text-white">Problem-Solving</b>: I quickly identify and
-          address any issues that arise in the messaging process.
-        </li>
-        <li>
-          <b className="text-white">Adaptability</b>: I adjust my approach based
-          on feedback and changes in the workflow. These strengths enable me to
-          support outreach efforts effectively and maintain positive
-          relationships with clients or customers.
-        </li>
-      </ul>
-    ),
-  },
-  {
-    image: "/images/team/ela.png",
-    name: "Narella",
-    title: "VA for 6 months",
-    description: (
-      <ul className="flex flex-col gap-1">
-        <li>
-          <b className="text-white">Comprehensive Business Support</b> -
-          Handling a wide range of tasks, including managing documentation,
-          emails, scheduling, and overall administrative support
-        </li>
-        <li>
-          <b className="text-white">Social Media Management </b>- Creating,
-          scheduling, and managing social media content to boost engagement and
-          grow following
-        </li>
-        <li>
-          <b className="text-white">Website Management & Creation</b> - Website
-          creation and management, ensuring seamless updates, and user-friendly
-          experiences
-        </li>
-        <li>
-          <b className="text-white">Customer Service Excellence</b> - Ability to
-          manage customer interactions, provide support, and resolve inquiries
-          to ensure positive customer experience
-        </li>
-        <li>
-          <b className="text-white">Organization & Time Management</b> - Highly
-          organized, with a focus on prioritization, multitasking, and managing
-          tight deadlines
-        </li>
-        <li>
-          <b className="text-white">Tech-Savvy & Adaptable</b> - Comfortable
-          with various tools and platforms, from email and content maanagement
-          systems to project management software and communication tools
-        </li>
-        <li>
-          <b className="text-white">Problem-Solving & Initiative</b>: Capable of
-          identifying challenges and implementing solutions quickly, with
-          proactive attitude towards tasks and responsibilities
-        </li>
-      </ul>
-    ),
-  },
-  // Add more items as needed
 ];
 
 export default vaSpotlights;
