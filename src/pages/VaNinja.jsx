@@ -18,9 +18,7 @@ function VaNinja() {
         />
       </Helmet>
       <NinjaHeader />
-
       <VaNinjaLoop />
-
       <SubscribeForm />
       <PerksNBenefits />
       <SystemRequirements />

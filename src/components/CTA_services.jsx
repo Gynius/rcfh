@@ -4,7 +4,7 @@ function CTA_services() {
   return (
     <section
       id="call-to-action"
-      className="call-to-action bg-gradient-to-b from-green_light to-white text-black flex align-center justify-center font-serif relative"
+      className="call-to-action bg-gradient-to-b from-green_light to-white text-black flex align-center justify-center font-serif"
     >
       <div className="container flex flex-col md:flex-row">
         <div
