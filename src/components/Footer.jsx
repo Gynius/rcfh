@@ -44,7 +44,7 @@ function Footer() {
                 </span>
               </a>
             </a>
-            <p className="max-w-md mx-auto text-gray-500 text-sm py-6 2xl:text-base">
+            <p className="max-w-md mx-auto text-gray-500 text-sm py-6">
               {site_data.desc}
             </p>
           </div>
@@ -53,11 +53,11 @@ function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase :text-white">
                 Contact
               </h2>
-              <ul className="text-gray-500 :text-gray-400 text-base ">
+              <ul className="text-gray-500 :text-gray ">
                 <li className="mb-4">
                   <a
                     href="mailto:support@rcfhagency.com"
-                    className="hover:underline inline-block shrink-0 break-all text-sm 2xl:text-base"
+                    className="hover:underline inline-block shrink-0 break-all text-sm"
                   >
                     {site_data.email}
                   </a>
@@ -68,7 +68,7 @@ function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Services
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-4">
+              <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-4 text-sm">
                 {Object.keys(services).map((key) => (
                   <li key={key} className="hover:underline">
                     <a href={services[key].link}>{services[key].name}</a>
@@ -84,7 +84,7 @@ function Footer() {
               <ul className="text-gray-500 :text-gray-400 font-medium">
                 <li className="mb-4">
                   <button
-                    className="hover:underline text-sm 2xl:text-base"
+                    className="hover:underline text-sm"
                     onClick={() => openModal("privacy")}
                   >
                     Privacy Policy
@@ -92,7 +92,7 @@ function Footer() {
                 </li>
                 <li>
                   <button
-                    className="hover:underline text-sm 2xl:text-base text-left"
+                    className="hover:underline text-sm text-left"
                     onClick={() => openModal("terms")}
                   >
                     Terms &amp; Conditions

@@ -1,11 +1,10 @@
 import JoinUs from "../components/JoinUs";
 import MainTemplate from "../components/MainTemplate";
 import Team from "../components/Team";
-import VASpotlight2 from "../components/VASpotlight2";
+import VASpotlightLayout from "../components/VASpotlightLayout";
 import Rcfh from "../components/Rcfh";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import VASpotlightLayout from "../components/VASpotlightLayout";
 import "aos/dist/aos.css";
 
 function OurTeams() {
@@ -51,7 +50,6 @@ function OurTeams() {
         </div>
       </div>
       <Rcfh />
-      {/* <VASpotlight2 /> */}
       <VASpotlightLayout />
       <Team />
       <JoinUs />

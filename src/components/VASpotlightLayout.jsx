@@ -26,25 +26,25 @@ function VASpotlightLayout() {
   const itemsToShow = [vaSpotlights[currentIndex]];
 
   return (
-    <section className="w-full flex items-center justify-center flex-col">
-      <div className="">
-        <h2 className="font-playfair text-4xl font-bold text-green tracking-tight leading-none py-10">
+    <section className="w-full flex items-center justify-center flex-col mb-20">
+      <div className="w-4/5">
+        <h2 className="text-center font-playfair text-4xl font-bold text-green tracking-tight leading-none py-10">
           OUR TOP PERFORMER FOR THE MONTH
         </h2>
       </div>
       <div className="w-4/5 ">
         {itemsToShow.map((spotlight, index) => {
           return (
-            <div key={index} className="">
-              <div className="w-full flex min-h-[400px] relative">
+            <div key={index} className="flex flex-col gap-10 items-center">
+              <div className="w-full flex min-h-[400px] relative flex-col items-center 2xl:flex-row">
                 <button
-                  className="carousel-button prev text-green"
+                  className="carousel-button prev text-green text-6xl"
                   onClick={handlePrev}
                 >
                   <FaChevronLeft />
                 </button>
                 <button
-                  className="carousel-button next text-green"
+                  className="carousel-button next text-green text-6xl"
                   onClick={handleNext}
                 >
                   <FaChevronRight />
@@ -91,21 +91,21 @@ function VASpotlightLayout() {
                   className="w-full flex flex-col items-center justify-center p-5"
                 >
                   <div className="w-full flex items-center justify-center gap-5 py-2">
-                    <h3 className="w-[75%] text-3xl text-green font-bold font-playfair py-5 text-right">
+                    <h3 className="w-[75%] text-3xl text-green font-bold font-playfair py-5 text-right 2xl:text-6xl">
                       {spotlight.name}
                     </h3>
                     <span className="w-[70%] border-4 border-red h-1 italic text-center">
                       <p className="py-1">{spotlight.title}</p>
                     </span>
                   </div>
-                  <div className="w-full flex justify-end items-right text-sm 2xl:text-base">
-                    <p className="w-[90%] text-justify">
+                  <div className="w-full flex justify-end items-right text-sm 2xl:text-base justify-center">
+                    <p className="w-[90%] text-justify text-sm md:text-base">
                       {spotlight.description}
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="w-full flex bg-va_bg text-white">
+              <div className="w-[80%] flex bg-va_bg text-white flex-col">
                 <div
                   id="left"
                   className="border text-xl font-extrabold font-roboto p-5"

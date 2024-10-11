@@ -49,9 +49,6 @@ function OurServices() {
       <Services />
       <HowItWorks />
       <Booking />
-      {/* <div className="clipped bg-join_us_bg w-full h-96 ">
-        <p className="text">Hello, I am clipped!</p>
-      </div> */}
     </MainTemplate>
   );
 }
