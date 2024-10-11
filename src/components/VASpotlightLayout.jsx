@@ -28,7 +28,7 @@ function VASpotlightLayout() {
   return (
     <section className="w-full flex items-center justify-center flex-col mb-20">
       <div className="w-4/5">
-        <h2 className="text-center font-playfair text-4xl font-bold text-green tracking-tight leading-none py-10">
+        <h2 className="text-4xl text-left font-roboto md:text-6xl font-extrabold text-green tracking-tight leading-none py-20">
           OUR TOP PERFORMER FOR THE MONTH
         </h2>
       </div>
@@ -36,7 +36,7 @@ function VASpotlightLayout() {
         {itemsToShow.map((spotlight, index) => {
           return (
             <div key={index} className="flex flex-col gap-10 items-center">
-              <div className="w-full flex relative flex-col items-center md:items-start 2xl:flex-row  justify-center">
+              <div className="w-full flex relative flex-col items-center md:items-start 2xl:flex-row justify-center">
                 <button
                   className="carousel-button prev text-green text-6xl"
                   onClick={handlePrev}
@@ -90,7 +90,7 @@ function VASpotlightLayout() {
                   id="content"
                   className="w-full flex flex-col h-[100%] items-center justify-start "
                 >
-                  <div className="w-full flex items-center justify-center gap-5 py-2">
+                  <div className="w-full flex items-center justify-center gap-5 py-2 flex-col md:flex-row ">
                     <h3 className="w-[75%] text-3xl text-green font-bold font-playfair py-5 text-right 2xl:text-6xl">
                       {spotlight.name}
                     </h3>

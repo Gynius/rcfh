@@ -2,8 +2,8 @@ import React from "react";
 
 function Rcfh() {
   return (
-    <div className="flex justify-center items-center py-20 px-20">
-      <div className="w-5/6 flex flex-col">
+    <div className="flex justify-center items-center py-10">
+      <div className=" md:w-4/5 flex flex-col ">
         <p className="font-roboto tracking-wide text-center text-base">
           <span className="text-6xl font-playfair font-extrabold text-green tracking-wider pr-10 rounded-full">
             RCFH
