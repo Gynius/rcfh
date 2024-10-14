@@ -26,18 +26,19 @@ function Team() {
               <div className="member-img">
                 <img
                   src={member.imgSrc}
-                  className="w-full object-cover aspect-square"
+                  className="w-full object-cover aspect-square "
                   alt={`Team Member ${index + 1}`}
                 />
-                <div className="social text-white">
-                  {member.socialLinks.map((link, linkIndex) => {
+                <div className="social text-white px-10 text-center italic">
+                  <p>"{member.description}" </p>
+                  {/* {member.socialLinks.map((link, linkIndex) => {
                     const IconComponent = link.icon;
                     return (
                       <a key={linkIndex} href={link.href}>
                         <IconComponent size={24} />
                       </a>
                     );
-                  })}
+                  })} */}
                 </div>
               </div>
               <div className="member-info text-center">

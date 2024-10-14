@@ -19,7 +19,7 @@ const teamMembers = [
     name: "Logan Welch",
     title: "VA Services Director/Trainer",
     description:
-      "Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut",
+      "I am also a ceramicist and spend free time in the studio making pottery",
     imgSrc: "/images/team/logan.jpg",
     socialLinks: [
       { href: "#", icon: FaTwitter },
@@ -47,14 +47,15 @@ const teamMembers = [
     name: "Sofia Magwale",
     title: "Assistant Manager of Operations",
     description:
-      "Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur",
-    imgSrc: "/images/team/team-4.jpg",
+      "I'm a bookworm and a mom, I love sunsets and I used to be in impromptu speech and dance competitions. I used to be a Student Body Council Public Relations Officer and President",
+    imgSrc: "/images/team/sofia.jpg",
     socialLinks: [
       { href: "#", icon: FaTwitter },
       { href: "#", icon: FaFacebook },
       { href: "#", icon: FaInstagram },
       { href: "#", icon: FaLinkedin },
     ],
+
     aosDelay: 400,
   },
 ];
