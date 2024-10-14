@@ -19,7 +19,7 @@ const teamMembers = [
     name: "Logan Welch",
     title: "VA Services Director/Trainer",
     description:
-      "I am also a ceramicist and spend free time in the studio making pottery",
+      "I am a ceramicist and spend free time in the studio making pottery",
     imgSrc: "/images/team/logan.jpg",
     socialLinks: [
       { href: "#", icon: FaTwitter },
