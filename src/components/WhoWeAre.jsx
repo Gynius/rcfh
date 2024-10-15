@@ -21,7 +21,7 @@ function WhoWeAre() {
           <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-2xl lg:text-4xl text-white py-5 text-right">
             Mission
           </h2>
-          <p className="text-gray-100 text-base text-center text-sm lg:text-base">
+          <p className="text-gray-100 text-base text-center text-sm 2xl:text-base w-[80%]">
             Our mission is to satisfy our customer’s requirements by providing
             the best services. Offering innovative solutions and high quality
             service.
@@ -31,7 +31,7 @@ function WhoWeAre() {
           <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-2xl lg:text-4xl text-white py-5 text-right">
             Vision
           </h2>
-          <p className="text-gray-100 text-base text-center text-sm lg:text-base">
+          <p className="text-gray-100 text-base text-center text-sm 2xl:text-base w-[80%]">
             Our vision is to become the preferred support service provider
             globally, known for our professionalism, efficiency, and innovative
             solutions. We believe in empowering businesses by providing them
