@@ -13,7 +13,7 @@ function Team() {
       id="team"
       className="team section flex align-center justify-center py-16"
     >
-      <div className="2xl:w-3/5 w-4/5 container">
+      <div className="2xl:w-3/5">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
           {teamMembers.map((member, index) => (
             <div
@@ -30,7 +30,9 @@ function Team() {
                   alt={`Team Member ${index + 1}`}
                 />
                 <div className="social text-white px-10 text-center italic">
-                  <p>"{member.description}" </p>
+                  <p className="text-xs lg:text-base">
+                    "{member.description}"{" "}
+                  </p>
                   {/* {member.socialLinks.map((link, linkIndex) => {
                     const IconComponent = link.icon;
                     return (

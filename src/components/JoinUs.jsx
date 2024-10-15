@@ -5,7 +5,7 @@ function JoinUs() {
     <div className="join-us bg-join_us_bg bg-fixed bg-cover p-20 relative h-screen justify-center items-center flex">
       <div className="w-full h-screen absolute inset-0 bg-black bg-opacity-50 z-5 "></div>
       <div className="w-full flex flex-col justify-center items-center gap-2">
-        <h1 className="font-playfair text-8xl text-white z-10 font-semibold py-3">
+        <h1 className="font-playfair lg:text-8xl text-white z-10 font-semibold py-3 text-6xl">
           Join Us
         </h1>
         <h2 className="lg:w-2/5 sm:w-4/5 font-roboto text-lg text-center z-10 text-white py-10">
