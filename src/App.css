@@ -101,6 +101,15 @@
   clip-path: ellipse(40% 100% at 50% 100%);
 }
 
+@media screen and (max-width: 768px) {
+  .va-ninja.arc-bottom::after {
+    clip-path: ellipse(100% 100% at 100% 0%); /* Curve at the bottom */
+  }
+  .va-ninja.arc-bottom::before {
+    clip-path: ellipse(100% 100% at 100% 80%);
+  }
+}
+
 
 
 .circle-big::before {
