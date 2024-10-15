@@ -7,7 +7,7 @@
 body{
     background-color: #f1f1f1;
     background-color: #ffffff;
-    overflow-x: hidden !important;
+    max-width: 100%;
 }
 
   /*--------------------------------------------------------------
