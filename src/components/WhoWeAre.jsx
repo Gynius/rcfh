@@ -13,7 +13,7 @@ function WhoWeAre() {
       <h2 className="font-playfair mb-4  font-extrabold tracking-tight leading-none text-gray-900 text-4xl lg:text-6xl text-green py-5 text-right">
         Who We Are
       </h2>
-      <h3 className="font-robotoCondensed text-2xl mb-10 text-green">
+      <h3 className="font-robotoCondensed text-2xl mb-10 text-green text-center lg:text-left">
         RCFH is your trusted Business Partner
       </h3>
       <div className="w-4/5 lg:w-3/5 flex flex-col md:flex-row justify-center items-center gap-10 mb-10">
