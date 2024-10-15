@@ -8,13 +8,9 @@ body{
     background-color: #f1f1f1;
     background-color: #ffffff;
     overflow-x: hidden;
+    max-width: 100%;
 }
 
-@media screen and (max-width:768px){
-    body{
-        overflow-x: hidden;
-    }
-}
   /*--------------------------------------------------------------
   # Global Page Titles & Breadcrumbs
   --------------------------------------------------------------*/
