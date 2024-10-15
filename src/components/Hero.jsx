@@ -8,7 +8,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="hero bg-hero_bg bg-cover bg-bottom :bg-gray-900 arc-bottom relative ">
+    <section className="hero bg-hero_bg bg-cover bg-bottom :bg-gray-900 arc-bottom relative">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a
           href="#"
