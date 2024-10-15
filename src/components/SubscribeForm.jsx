@@ -5,13 +5,13 @@ function SubscribeForm() {
   return (
     <section className="flex justify-center py-10" id="subscribe-form">
       <div
-        className="h-96 subscribe-form flex bg-va_bg bg-cover overflow-hidden z-10 relative rounded-lg w-4/5"
+        className="h-auto subscribe-form flex bg-va_bg bg-cover overflow-hidden z-10 relative rounded-lg w-4/5 "
         data-aos="fade-left"
       >
         <div className="form-image w-1/3 h-full flex items-center justify-end p-10 z-20 hidden 2xl:flex">
           <FaSync size={250} className="text-white" />
         </div>
-        <div className="form-area w-full p-10 px-20 flex flex-col gap-2 z-20">
+        <div className="form-area w-full p-10 2xl:px-20 flex flex-col gap-2 z-20">
           <h2 className="font-playfair font-extrabold text-4xl text-white">
             Subscribe Now
           </h2>
@@ -40,7 +40,7 @@ function SubscribeForm() {
             placeholder="Enter your email"
             style={{ lineHeight: "2.5rem" }}
           />
-          <button className="border-2 mx-auto py-3 px-5 bg-green text-white rounded-lg hover:bg-green_dark mt-5 w-1/3 font-bold">
+          <button className="border-2 mx-auto py-3 px-5 bg-green text-white rounded-lg hover:bg-green_dark mt-5 2xl:w-1/3 font-bold">
             Subscribe
           </button>
           <div className="social-media flex gap-3 ml-auto mt-4">
@@ -49,21 +49,21 @@ function SubscribeForm() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook size={24} className="text-white" />
+              <FaFacebook size={24} className="text-white hover:text-red" />
             </a>
             <a
               href="https://ph.linkedin.com/company/reliable-consulting-for-hire"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={24} className="text-white" />
+              <FaLinkedin size={24} className="text-white hover:text-red" />
             </a>
             <a
               href="mailto:support@rcfhagency.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGoogle size={24} className="text-white" />
+              <FaGoogle size={24} className="text-white hover:text-red" />
             </a>
           </div>
         </div>

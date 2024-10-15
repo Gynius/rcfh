@@ -62,7 +62,7 @@ function WhoWeAre() {
         })}
       </div>
 
-      <p className="font-roboto text-small my-10 text-center px-20 w-4/5 2xl:w-3/5">
+      <p className="font-roboto text-small my-10 text-center w-4/5 2xl:w-3/5">
         Your business is on the cusp of growth, and our team is here to keep you
         organized and on track to success. Take a look at some of our team
         members and learn a bit more about what they do here at RCFH.
