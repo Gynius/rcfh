@@ -36,7 +36,7 @@ function VASpotlightLayout() {
         {itemsToShow.map((spotlight, index) => {
           return (
             <div key={index} className="flex flex-col gap-10 items-center">
-              <div className="w-full flex relative flex-col items-center md:items-start 2xl:flex-row justify-center">
+              <div className="w-full flex relative flex-col items-center md:items-start lg:flex-row justify-center">
                 <button
                   className="carousel-button prev text-green text-6xl"
                   onClick={handlePrev}
