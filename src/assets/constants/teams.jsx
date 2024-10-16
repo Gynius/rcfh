@@ -5,7 +5,7 @@ const teamMembers = [
     name: "Jessica Taufmann",
     title: "Outbound Services Director/Trainer",
     description:
-      "Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow",
+      "I am a Mom and love to potter around the garden and bake to relieve some stress I love working with people especially when it comes to their personal growth!  Super empathetic and I have a very dry sense of humour",
     imgSrc: "/images/team/jess-op.png",
     socialLinks: [
       { href: "#", icon: FaTwitter },
@@ -33,7 +33,7 @@ const teamMembers = [
     name: "Melody Quilanita",
     title: "Manager of Operations",
     description:
-      "Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui",
+      "As a soon to be mom and a cat lover, I also enjoy unwinding with my favorite law-related series, where my passion for justice meets my soft spot for fluffy feline companionship!",
     imgSrc: "/images/team/mel.jpg",
     socialLinks: [
       { href: "#", icon: FaTwitter },
