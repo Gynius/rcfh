@@ -28,7 +28,7 @@ function VASpotlightLayout() {
   return (
     <section className="w-full flex items-center justify-center flex-col mb-20">
       <div className="w-4/5">
-        <h2 className="text-4xl text-left font-roboto md:text-6xl font-extrabold text-green tracking-tight leading-none py-20">
+        <h2 className="text-4xl text-center font-playfair md:text-6xl font-extrabold text-green tracking-tight leading-none py-20">
           OUR TOP PERFORMER FOR THE MONTH
         </h2>
       </div>
@@ -91,21 +91,21 @@ function VASpotlightLayout() {
                   className="w-full flex flex-col h-[100%] items-center justify-start "
                 >
                   <div className="w-full flex items-center justify-center gap-5 py-2 flex-col md:flex-row ">
-                    <h3 className="w-[75%] text-3xl text-green font-bold font-playfair py-5 text-right 2xl:text-6xl">
+                    <h3 className="w-[75%] text-3xl text-green font-bold font-roboto py-5 text-right 2xl:text-6xl">
                       {spotlight.name}
                     </h3>
                     <span className="w-[70%] border-4 border-red h-1 italic text-center">
                       <p className="py-1">{spotlight.title}</p>
                     </span>
                   </div>
-                  <div className="w-full  flex justify-end items-right text-sm 2xl:text-base justify-center">
-                    <p className="w-[90%] text-justify text-sm md:text-base hidden md:block">
+                  <div className="w-full  flex justify-end items-right justify-center ">
+                    <p className="w-[90%] text-justify text-sm hidden md:block">
                       {spotlight.description}
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="w-[80%] flex bg-va_bg text-white flex-col">
+              <div className="w-[95%] flex bg-va_bg text-white flex-col">
                 <div
                   id="left"
                   className="border text-xl font-extrabold font-roboto p-5 "

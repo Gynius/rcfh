@@ -110,8 +110,6 @@
   }
 }
 
-
-
 .circle-big::before {
   content: '';
   position: absolute;

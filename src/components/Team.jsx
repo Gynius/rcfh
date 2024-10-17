@@ -13,7 +13,7 @@ function Team() {
       id="team"
       className="team section flex align-center justify-center py-16"
     >
-      <div className="2xl:w-3/5">
+      <div className="lg:w-3/5">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
           {teamMembers.map((member, index) => (
             <div
