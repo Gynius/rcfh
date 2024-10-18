@@ -30,17 +30,7 @@ function Team() {
                   alt={`Team Member ${index + 1}`}
                 />
                 <div className="social text-white px-10 text-center italic">
-                  <p className="text-xs lg:text-base">
-                    "{member.description}"{" "}
-                  </p>
-                  {/* {member.socialLinks.map((link, linkIndex) => {
-                    const IconComponent = link.icon;
-                    return (
-                      <a key={linkIndex} href={link.href}>
-                        <IconComponent size={24} />
-                      </a>
-                    );
-                  })} */}
+                  <p className="text-xs lg:text-base">"{member.description}"</p>
                 </div>
               </div>
               <div className="member-info text-center">

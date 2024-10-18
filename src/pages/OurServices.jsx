@@ -4,7 +4,6 @@ import HowItWorks from "../components/Howitworksv2";
 import Booking from "../components/Booking";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 function OurServices() {

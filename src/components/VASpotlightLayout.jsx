@@ -42,12 +42,14 @@ function VASpotlightLayout() {
                   onClick={handlePrev}
                 >
                   <FaChevronLeft />
+                  <span className="sr-only">Previous Slide</span>
                 </button>
                 <button
                   className="carousel-button next text-green text-6xl"
                   onClick={handleNext}
                 >
                   <FaChevronRight />
+                  <span className="sr-only">Next Slide</span>
                 </button>
                 <div className="w-[50%] flex items-center justify-center">
                   <div className="border-8 border-red aspect-square w-[100%] rounded-full flex items-center justify-center relative ">
@@ -99,9 +101,9 @@ function VASpotlightLayout() {
                     </span>
                   </div>
                   <div className="w-full  flex justify-end items-right text-sm 2xl:text-base justify-center">
-                    <p className="w-[90%] text-justify text-sm md:text-base hidden md:block">
+                    <div className="w-[90%] text-justify text-sm md:text-base hidden md:block">
                       {spotlight.description}
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>

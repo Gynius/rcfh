@@ -18,9 +18,11 @@ function Rcfh() {
           together!
         </p>
         <div className="flex justify-center items-center h-full pt-10">
-          <button className="border rounded-full px-5 py-3 bg-red text-white shadow self-center">
-            Book A Call
-          </button>
+          <a href="https://calendly.com/kathy-rcfhagency/60min">
+            <button className="border font-bold rounded-full px-5 py-3 bg-green text-white">
+              Book A Call
+            </button>
+          </a>
         </div>
       </div>
     </div>

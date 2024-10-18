@@ -110,6 +110,7 @@ function Footer() {
             {social_links.map((link, index) => {
               return (
                 <a
+                  key={index}
                   href={link.url}
                   className="text-gray-500 hover:text-gray-900 :hover:text-white"
                 >

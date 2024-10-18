@@ -38,12 +38,12 @@ function OurTeams() {
           <nav className="breadcrumbs pt-5" data-aos="fade-up">
             <ol>
               <li>
-                <a className="text-white p-1 ">
-                  <Link to="/">Home</Link>
-                </a>
+                <Link to="/" className="text-white">
+                  Home
+                </Link>
               </li>
               <li className="current text-white">
-                <a className="p-1 border-b-2 border-red">Teams</a>
+                <button className=" border-b-2 border-red">Teams</button>
               </li>
             </ol>
           </nav>
