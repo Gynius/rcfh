@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 function WhatWeDo() {
   return (
     <div className="flex flex-col md:flex-row w-4/5 2xl:w-3/5 sm:my-0 lg:my-24 mx-auto">
@@ -23,8 +21,11 @@ function WhatWeDo() {
             our diverse clientele.
           </p>
           <div className="flex flex-col mb-8 lg:mb-16 space-y-2 sm:flex-row my-4 sm:space-y-0 sm:space-x-4 ">
-            <a className="text-black inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-2 border-green hover:bg-green hover:text-white focus:ring-4 focus:ring-gray-100 :text-white :border-gray-700 :hover:bg-gray-700 :focus:ring-gray-800 text-green">
-              <Link to="/teams"> About Us</Link>
+            <a
+              href="/teams"
+              className="text-black inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-2 border-green hover:bg-green hover:text-white focus:ring-4 focus:ring-gray-100 :text-white :border-gray-700 :hover:bg-gray-700 :focus:ring-gray-800 text-green"
+            >
+              About Us
             </a>
           </div>
         </div>
