@@ -53,7 +53,7 @@ function WhoWeAre() {
               data-aos-once="true"
             >
               {item.svg("80px", "80px")}
-              <h4 className="text-lg font-semibold my-5">{item.title}</h4>
+              <h3 className="text-lg font-semibold my-5">{item.title}</h3>
               <p className="font-normal text-gray-500 text-base">
                 {item.description}
               </p>

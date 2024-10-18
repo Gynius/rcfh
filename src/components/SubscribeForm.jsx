@@ -50,6 +50,7 @@ function SubscribeForm() {
               rel="noopener noreferrer"
             >
               <FaFacebook size={24} className="text-white hover:text-red" />
+              <span className="sr-only">Facebook</span>
             </a>
             <a
               href="https://ph.linkedin.com/company/reliable-consulting-for-hire"
@@ -57,6 +58,7 @@ function SubscribeForm() {
               rel="noopener noreferrer"
             >
               <FaLinkedin size={24} className="text-white hover:text-red" />
+              <span className="sr-only">LinkedIn</span>
             </a>
             <a
               href="mailto:support@rcfhagency.com"
@@ -64,6 +66,7 @@ function SubscribeForm() {
               rel="noopener noreferrer"
             >
               <FaGoogle size={24} className="text-white hover:text-red" />
+              <span className="sr-only">Email</span>
             </a>
           </div>
         </div>

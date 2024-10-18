@@ -11,9 +11,7 @@ function Hero() {
     <section className="hero bg-hero_bg bg-cover bg-bottom :bg-gray-900 arc-bottom relative">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a
-          href="#"
           className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full :bg-gray-800 :text-white hover:bg-gray-200 :hover:bg-gray-700"
-          role="alert"
           data-aos="fade-down" // Add AOS attribute
         >
           <span className="text-xs bg-primary-600 rounded-full text-green-500 px-4 py-1.5 mr-3 text-red">

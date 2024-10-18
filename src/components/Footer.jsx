@@ -37,7 +37,7 @@ function Footer() {
                 <img
                   src="/images/rcfh_logo.svg"
                   className="h-8 me-3"
-                  alt="rcfh"
+                  alt="footer logo"
                 />
                 <span className="font-playfair self-center text-2xl font-bold whitespace-nowrap :text-white">
                   {site_data.short_name}
