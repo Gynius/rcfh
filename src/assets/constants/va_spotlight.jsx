@@ -1,6 +1,6 @@
 const vaSpotlights = [
   {
-    image: "/images/team/marygil.jpg",
+    image: "/images/teams/marygil.webp",
     name: "Marygil",
     title: "VA for 2 Years and 6 months",
     position: "bottom",
@@ -47,7 +47,7 @@ const vaSpotlights = [
       "My name is Matt Vande Vegte and I've had the pleasure of working with Marygil as my lead VA for what feels like forever at this point, simply because I cannot imaging running our business without her. Her expertise and ability to adapt is unparalleled, exceeded only by her incredible dedication and work ethic. Marygil never ceases to amaze me with her ever-growing skill set, it seems that there's nothing she can't handle. Marygil has set the golden standard for excellence in the workplace and I'm blessed to have her on the team as we continue to push forward and help more people with the business. Thank you Marygil for all of your hard work, I couldn't do this without you!",
   },
   {
-    image: "/images/team/karren.jpg",
+    image: "/images/teams/karren.webp",
     name: "Karren Fabie Nolledo",
     title: "VA for 1 year and 10 months",
     position: "top",

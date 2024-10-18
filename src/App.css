@@ -7,7 +7,7 @@
   transform: translateX(-50%) rotate(180deg); /* Center horizontally and rotate 180 degrees */
   width: 100%;
   height: 100%;
-  background-image: url('/images/bg.png');
+  background-image: url('/images/bg.webp');
   z-index: -1; /* Ensure it’s behind other content */
   clip-path: ellipse(150% 100% at 50% 100%);
 }
@@ -78,7 +78,7 @@
   transform: translateX(-50%); /* Center horizontally */
   width: 200%;
   height: 100%;
-  background-image: url('/images/ninja2.jpg');
+  background-image: url('/images/ninja2.webp');
   background-position: 10% 10%; /* Custom position */
   background-size: cover;
   background-repeat: no-repeat;
