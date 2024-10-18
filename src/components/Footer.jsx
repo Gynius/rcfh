@@ -32,18 +32,17 @@ function Footer() {
       <div className="mx-auto  2xl:w-3/5 w-4/5 p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a className="flex items-center">
-              <a href="/" className="flex">
-                <img
-                  src="/images/rcfh_logo.svg"
-                  className="h-8 me-3"
-                  alt="footer logo"
-                />
-                <span className="font-playfair self-center text-2xl font-bold whitespace-nowrap :text-white">
-                  {site_data.short_name}
-                </span>
-              </a>
+            <a href="/" className="flex">
+              <img
+                src="/images/rcfh_logo.svg"
+                className="h-8 me-3"
+                alt="footer logo"
+              />
+              <span className="font-playfair self-center text-2xl font-bold whitespace-nowrap :text-white">
+                {site_data.short_name}
+              </span>
             </a>
+
             <p className="max-w-md mx-auto text-gray-500 text-sm py-6">
               {site_data.desc}
             </p>
@@ -105,11 +104,7 @@ function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto :border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center :text-gray-400">
-            © 2024
-            <a className="hover:underline">
-              <Link to="/">RCFH</Link>
-            </a>
-            . All Rights Reserved.
+            © 2024 RCFH. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0 gap-2 ">
             {social_links.map((link, index) => {

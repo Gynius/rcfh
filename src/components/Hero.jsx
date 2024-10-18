@@ -13,6 +13,7 @@ function Hero() {
         <a
           className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full :bg-gray-800 :text-white hover:bg-gray-200 :hover:bg-gray-700"
           data-aos="fade-down" // Add AOS attribute
+          href="/"
         >
           <span className="text-xs bg-primary-600 rounded-full text-green-500 px-4 py-1.5 mr-3 text-red">
             Coming soon!
