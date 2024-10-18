@@ -87,6 +87,8 @@ const vaSpotlights = [
         </li>
       </ul>
     ),
+    clientFeedback:
+      "Karren has been a pivotal member of our team. She is insanely reliable and I can always count on her to keep the business running while I need to step away from the business. I have even taken a few vacations knowing that leads will still be coming in because Karren is crushing it in my DMs! Another thing is I don’t have to micromanage her at all. I have worked with other DMers in the past and have had to keep a close eye on my DMs to see if they are doing their job properly and to gauge their responses. I do not have to do that with Karren. She is also very eager to us business succeed. Not only does she excel at her job duties, but she is also coming up with ideas on how we can improve things. Suggesting different promotional ideas, ad strategies, etc. Lastly, Karren is very quick to improve her craft. I have a very niche audience and it is hard to emulate my style or “voice” via text, but she picked it up much faster than I expected. She has a great base knowledge of the whole process and the only training we had to do was getting her to sound more like me when messaging people in the DMs.Long story short, Karren has been an immense value to our team and quite honestly, has been a key driver to our success. Since she joined our team, our monthly revenue has jumped over 5x!",
   },
 ];
 
