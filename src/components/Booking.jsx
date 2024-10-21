@@ -7,6 +7,7 @@ function Booking() {
         BOOK NOW
       </h1>
       <iframe
+        title="booking"
         className="w-4/5 border border-1 border-red my-0"
         style={{ border: "none", height: "800px", background: "transparent" }}
         src="https://calendly.com/kathy-rcfhagency/60min"

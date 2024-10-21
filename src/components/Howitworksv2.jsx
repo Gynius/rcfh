@@ -26,9 +26,9 @@ function HowItWorks() {
             <span className="group-hover:text-white">01</span>
             <div className="flex gap-2  items-center">
               <FaSearch className="text-3xl mb-2 text-green group-hover:text-white" />
-              <h4 className="font-playfair font-bold text-green text-3xl pb-4 group-hover:text-white">
+              <h2 className="font-playfair font-bold text-green text-3xl pb-4 group-hover:text-white">
                 Discover
-              </h4>
+              </h2>
             </div>
             <p className="flex-grow text-gray-600 group-hover:text-white">
               We identify expectations and critical issues facing our clients,
@@ -45,9 +45,9 @@ function HowItWorks() {
             <span className="group-hover:text-white">02</span>
             <div className="flex gap-2 items-center">
               <FaTasks className="text-3xl mb-2 text-green group-hover:text-white" />
-              <h4 className="font-playfair font-bold text-green text-3xl pb-4 group-hover:text-white">
+              <h2 className="font-playfair font-bold text-green text-3xl pb-4 group-hover:text-white">
                 Delegate
-              </h4>
+              </h2>
             </div>
 
             <p className="flex-grow text-gray-600 group-hover:text-white">
@@ -63,9 +63,9 @@ function HowItWorks() {
             <span>03</span>
             <div className="flex gap-2 items-center">
               <FaRocket className="text-3xl mb-2 text-green group-hover:text-white" />
-              <h4 className="font-playfair font-bold text-green text-3xl pb-4 group-hover:text-white">
+              <h2 className="font-playfair font-bold text-green text-3xl pb-4 group-hover:text-white">
                 Deploy
-              </h4>
+              </h2>
             </div>
 
             <p className="flex-grow text-gray-600 group-hover:text-white">
@@ -82,9 +82,9 @@ function HowItWorks() {
             <span>04</span>
             <div className="flex gap-2 items-center">
               <FaCheckCircle className="text-3xl mb-2 text-red group-hover-text-white" />
-              <h4 className="font-playfair font-bold text-green text-3xl text-red pb-4 group-hover:text-white">
+              <h2 className="font-playfair font-bold text-green text-3xl text-red pb-4 group-hover:text-white">
                 Deliver
-              </h4>
+              </h2>
             </div>
 
             <p className="flex-grow text-gray-600 group-hover:text-white">

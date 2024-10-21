@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import OurServices from "./pages/OurServices";
 import OurTeams from "./pages/OurTeams";
 import VaNinja from "./pages/VaNinja";
+import NotFound from "./pages/PageNotFound";
 import ScrollToTop from "./components/ScrollToTop"; // Import the ScrollToTop component
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/services" element={<OurServices />} />
         <Route path="/teams" element={<OurTeams />} />
         <Route path="/va-ninja" element={<VaNinja />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

@@ -60,9 +60,9 @@ function VaNinjaLoop() {
               data-aos-once="true"
             >
               <div className="flex justify-between py-5">
-                <h3 className="font-playfair font-extrabold text-xl w-1/2 text-green 2xl:text-2xl">
+                <h2 className="font-playfair font-extrabold text-xl w-1/2 text-green 2xl:text-2xl">
                   {task.title}
-                </h3>
+                </h2>
                 <i>
                   {React.cloneElement(task.icon, {
                     size: 30,

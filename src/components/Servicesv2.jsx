@@ -32,9 +32,9 @@ export default function Services() {
                   style={{ backgroundImage: `url(${service.image})` }}
                 ></div>
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300 z-5"></div>
-                <h4 className="font-playfair font-bold text-3xl flex-1 group-hover:text-white z-10 m-0 p-0 text-center w-full">
+                <h3 className="font-playfair font-bold text-3xl flex-1 group-hover:text-white z-10 m-0 p-0 text-center w-full">
                   {service.title}
-                </h4>
+                </h3>
                 <p className="text-roboto m-0 text-gray-600 row-span-2 group-hover:text-gray-200 z-10 m-0 p-0 text-base text-center">
                   {service.description}
                 </p>
