@@ -34,12 +34,12 @@ function OurServices() {
           <nav class="breadcrumbs" data-aos="fade-up">
             <ol>
               <li>
-                <a className="text-white p-1 ">
-                  <Link to="/">Home</Link>
-                </a>
+                <Link to="/" className="text-white">
+                  Home
+                </Link>
               </li>
-              <li class="current text-white ">
-                <a className=" border-b-2 border-red p-1">Services</a>
+              <li class="current text-white">
+                <button className=" border-b-2 border-red ">Services</button>
               </li>
             </ol>
           </nav>

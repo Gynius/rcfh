@@ -24,7 +24,7 @@ function PerksNBenefits() {
           data-aos="fade-up"
           data-aos-once="true"
         >
-          <div className="card-container xl:w-1/6 xs_s:w-1/2">
+          <div className="card-container lg:w-1/6 xs_s:w-1/2 s:w-1/3">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green text-white rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -42,7 +42,7 @@ function PerksNBenefits() {
             </div>
           </div>
 
-          <div className="card-container xl:w-1/6 xs_s:w-1/2">
+          <div className="card-container lg:w-1/6 xs_s:w-1/2 s:w-1/3">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -60,7 +60,7 @@ function PerksNBenefits() {
             </div>
           </div>
 
-          <div className="card-container xl:w-1/6 xs_s:w-1/2">
+          <div className="card-container lg:w-1/6 xs_s:w-1/2 s:w-1/3">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -78,7 +78,7 @@ function PerksNBenefits() {
             </div>
           </div>
 
-          <div className="card-container xl:w-1/6 xs_s:w-1/2">
+          <div className="card-container lg:w-1/6 xs_s:w-1/2 s:w-1/3">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
@@ -96,7 +96,7 @@ function PerksNBenefits() {
             </div>
           </div>
 
-          <div className="card-container xl:w-1/6 xs_s:w-1/2">
+          <div className="card-container lg:w-1/6 xs_s:w-1/2 s:w-1/3">
             <div className="card">
               <div className="card-front flex flex-col items-center gap-4">
                 <div className="border-4 border-green rounded-full w-2/3 bg-white aspect-square flex items-center justify-center text-sm text-center">
