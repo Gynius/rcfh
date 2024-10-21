@@ -6,8 +6,10 @@ import VaNinja from "./pages/VaNinja";
 import ScrollToTop from "./components/ScrollToTop"; // Import the ScrollToTop component
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import ReactGA from "react-ga4";
 
 function App() {
+  ReactGA.initialize("G-7EE8E3S9EW");
   return (
     <Router>
       <Helmet>
