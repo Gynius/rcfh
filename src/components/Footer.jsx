@@ -52,7 +52,7 @@ function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase :text-white">
                 Contact
               </h2>
-              <ul className="text-gray-500 :text-gray ">
+              <ul className="text-[#00A2AF]  :text-gray ">
                 <li className="mb-4">
                   <a
                     href="mailto:support@rcfhagency.com"
@@ -67,7 +67,7 @@ function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Services
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-4 text-sm">
+              <ul className="text-[#00A2AF] dark:text-gray-400 font-medium space-y-4 text-sm">
                 {Object.keys(services).map((key) => (
                   <li key={key} className="hover:underline">
                     <a href={services[key].link}>{services[key].name}</a>
@@ -80,7 +80,7 @@ function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase :text-white">
                 Legal
               </h2>
-              <ul className="text-gray-500 :text-gray-400 font-medium">
+              <ul className="text-[#00A2AF]  :text-gray-400 font-medium">
                 <li className="mb-4">
                   <button
                     className="hover:underline text-sm"

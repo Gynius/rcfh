@@ -20,15 +20,15 @@ function SubscribeForm() {
             email below to start receiving premium content and offers straight
             to your inbox. It’s quick, easy, and absolutely free!
           </p>
-          <div className="flex justify-between items-center gap-2">
+          <div className="flex justify-between items-center gap-2 flex-col lg:flex-row">
             <input
-              className="bg-white border-2 border-white leading-relaxed px-5 w-1/2"
+              className="bg-white border-2 border-white leading-relaxed px-5 w-full lg:w-1/2"
               type="text"
               placeholder="First Name"
               style={{ lineHeight: "2.5rem" }}
             />
             <input
-              className="bg-white border-2 border-white leading-relaxed px-5 w-1/2"
+              className="bg-white border-2 border-white leading-relaxed px-5 w-full lg:w-1/2"
               type="text"
               placeholder="Last Name"
               style={{ lineHeight: "2.5rem" }}
@@ -45,7 +45,7 @@ function SubscribeForm() {
           </button>
           <div className="social-media flex gap-3 ml-auto mt-4">
             <a
-              href="https://www.facebook.com/people/RCFH/65555467765595/"
+              href="https://www.facebook.com/profile.php?id=61555467761591"
               target="_blank"
               rel="noopener noreferrer"
             >

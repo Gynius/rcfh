@@ -25,7 +25,7 @@ function Home() {
         </span>
         <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
           <a
-            href="https://www.facebook.com/people/RCFH/65555467765595/"
+            href="https://www.facebook.com/profile.php?id=61555467761591"
             className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 :hover:text-gray-400 flex justify-center items-center text-2xl gap-4 font-extrabold font-roboto"
           >
             <FaFacebook className="text-4xl" /> Facebook

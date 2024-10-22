@@ -75,7 +75,7 @@ function VaNinjaLoop() {
               </p>
               <a
                 href={task.link}
-                className="text-sm 2xl:text-base flex items-center border-t-2 border-gray-100 font-light py-3 text-green"
+                className="text-sm 2xl:text-base flex items-center border-t-2 border-gray-100 font-light py-3 text-red font-extrabold"
               >
                 Join now <FaArrowRight className="ml-2 text-red" />
               </a>

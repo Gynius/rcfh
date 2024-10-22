@@ -27,7 +27,7 @@ export const site_data = {
   social_links: [
     {
       name: "Facebook",
-      url: "https://www.facebook.com/people/RCFH/65555467765595/",
+      url: "https://www.facebook.com/profile.php?id=61555467761591",
       icon: <FaFacebook size={32} />,
     },
     {
