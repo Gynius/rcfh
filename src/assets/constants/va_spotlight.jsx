@@ -1,7 +1,7 @@
 const vaSpotlights = [
   {
     image: "/images/teams/marygil.webp",
-    name: "Marygil",
+    name: "Marygil Bantolo",
     title: "VA for 2 Years and 6 months",
     position: "bottom",
     description: (

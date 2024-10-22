@@ -1,13 +1,5 @@
 const teamMembers = [
   {
-    name: "Jessica Taufmann",
-    title: "Outbound Services Director/Trainer",
-    description:
-      "I am a Mom and love to potter around the garden and bake to relieve some stress I love working with people especially when it comes to their personal growth!  Super empathetic and I have a very dry sense of humour",
-    imgSrc: "/images/teams/jess.webp",
-    aosDelay: 100,
-  },
-  {
     name: "Logan Welch",
     title: "VA Services Director/Trainer",
     description:
@@ -15,6 +7,14 @@ const teamMembers = [
     imgSrc: "/images/teams/logan.webp",
 
     aosDelay: 200,
+  },
+  {
+    name: "Jessica Taufmann",
+    title: "Outbound Services Director/Trainer",
+    description:
+      "I am a Mom and love to potter around the garden and bake to relieve some stress I love working with people especially when it comes to their personal growth!  Super empathetic and I have a very dry sense of humour",
+    imgSrc: "/images/teams/jess.webp",
+    aosDelay: 100,
   },
   {
     name: "Melody Quilanita",
