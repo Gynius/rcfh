@@ -7,6 +7,7 @@ import SubscribeForm from "../components/SubscribeForm";
 import WhyChooseUs from "../components/WhyChooseUs";
 import { FaFacebook, FaLinkedin, FaGoogle } from "react-icons/fa";
 import { Helmet } from "react-helmet";
+
 function Home() {
   return (
     <MainTemplate>

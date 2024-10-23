@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define your base URL
-const baseUrl = 'https://rcfh.vercel.app';  // Change to your website's domain
+const baseUrl = 'https://www.rcfhagency.com';  // Change to your website's domain
 
 // Define the list of routes (can also be dynamically generated)
 const routes = [
