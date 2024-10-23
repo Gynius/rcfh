@@ -12,11 +12,26 @@ function Home() {
   return (
     <MainTemplate>
       <Helmet>
-        <title>RFCH | VA Agency</title>
+        <title>RFCH | Virtual Assistant Agency</title>
         <meta
           name="description"
-          content="Discover top-notch Virtual Assistant services at our VA agency, designed to elevate your business efficiency and support your goals."
+          content="At our VA agency, we specialize in providing tailored Virtual Assistant services to help streamline your operations and enhance productivity. Our team of skilled professionals is equipped to handle a variety of tasks, from administrative support and customer service to social media management and project coordination. By partnering with us, you can focus on your core business activities while we take care of the day-to-day operations. Our flexible and scalable solutions are designed to adapt to your unique needs, ensuring that you have the right support at the right time. Let us help you elevate your business efficiency and achieve your goals with our top-notch services!"
         />
+        <meta
+          property="og:title"
+          content="Unlock Your Business Potential with Our Virtual Assistant Services"
+        />
+        <meta
+          property="og:description"
+          content="We offer staffing solutions to fit your needs including dedicated virtual assistants and consulting services to streamline every aspect of your business.
+"
+        />
+        <meta
+          property="og:image"
+          content="https://www.facebook.com/photo/?fbid=122166160550182258&set=a.122106389372182258"
+        />
+        <meta property="og:url" content="https://www.rcfhagency.com" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <Hero />
