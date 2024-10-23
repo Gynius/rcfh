@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet";
 import ReactGA from "react-ga4";
 
 function App() {
-  ReactGA.initialize("G-7EE8E3S9EW");
+  ReactGA.initialize("G-1G68423BR9");
   return (
     <Router>
       <Helmet>
